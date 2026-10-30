@@ -1,0 +1,1 @@
+{"url": "https://arbitrum-one-rpc.publicnode.com", "body": {"jsonrpc": "2.0", "id": 1, "method": "eth_getBalance", "params": ["0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c", "latest"]}, "fetched_utc": "2026-10-30T06:17:01Z", "response": {"jsonrpc": "2.0", "id": 1, "result": "0x9986953353c9a"}}

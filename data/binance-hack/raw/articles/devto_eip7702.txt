@@ -1,0 +1,311 @@
+ 
+ How a $5.3B Binance Hot-Wallet Hack Worked: EIP-7702, 50 Signatures and a 37-Minute Race - DEV Community 
+ Skip to content 
+ Navigation menu 
+ Search 
+ Powered by Algolia
+ Search 
+ Log in
+ Create account
+ DEV Community 
+ Close 
+ Add reaction
+ Like
+ Unicorn
+ Exploding Head
+ Raised Hands
+ Fire
+ Jump to Comments
+ Save
+ Boost
+ Pick as gem 
+ More... 
+ Copy link 
+ Copy link 
+ Copied to Clipboard 
+ Share to X
+ Share to LinkedIn
+ Share to Facebook
+ Share to Mastodon
+ Share Post via... 
+ Report Abuse 
+ Prakash Pawar 
+ Posted on Oct 30 
+ • 
+ Edited on Oct 30 
+ How a $5.3B Binance Hot-Wallet Hack Worked: EIP-7702, 50 Signatures and a 37-Minute Race
+ # web3 
+ # security 
+ # ethereum 
+ # blockchain 
+ On 29 October 2026, attackers drained about $5.3 billion from Binance hot wallets across 10 blockchains in roughly 15 minutes . Binance puts the total impact at $6.3 billion , the largest crypto theft on record. About $2.7 billion has since been frozen or seized. About $2.5 billion escaped, most of it converted to ETH, which nobody can freeze. 
+ I spent the morning after tracing it on Etherscan and through an independent tracker. This post walks through what is visible on-chain: the preparation, the EIP-7702 trick on Ethereum, why the evidence points at Binance's signing infrastructure rather than one leaked key, and how the attacker turned freezable stablecoins into ETH before Tether and Circle could react. 
+ Caveat: figures are estimates as of 30 October 2026, ~04:30 UTC. Where a point is the tracker's own inference rather than something read off the chain, I say so. 
+ TL;DR
+ Measure 
+ Amount 
+ Stolen (tracker estimate) 
+ ~$5.3B across 10 chains 
+ Total impact (Binance) 
+ $6.3B 
+ Frozen or seized 
+ ~$2.7B 
+ Escaped 
+ ~$2.5B, mostly ETH 
+ Time to drain 
+ ~15 minutes 
+ Time before the main freeze 
+ 37 minutes 
+ The attacker prepared for 18 hours : two sweeper contracts and successful rehearsals. 
+ On Ethereum, one transaction carried 50 EIP-7702 authorizations signed by Binance 14's own key . One matched, and Binance's busiest hot wallet started running the attacker's code. 
+ But Ethereum was not the entry point . XRP and Solana were drained first, and chains with five different key systems were emptied within minutes. That looks like a compromised signing or withdrawal layer, not a stolen key. 
+ The attacker sold USDT at 4–22% below value to beat the freezes. 
+ Background: what EIP-7702 changes
+ EIP-7702 (shipped in Ethereum's 2025 Pectra upgrade) lets an ordinary externally owned account (EOA) sign an authorization : "run this contract's code as if it were mine." Once that authorization is included in a type-4 transaction, the EOA delegates its code to the contract. 
+ Two properties matter here: 
+ Only the EOA's own key can sign the authorization. Whoever submits the transaction (the sponsor) cannot forge it. 
+ Each authorization is bound to one nonce. It only takes effect if the account's nonce matches at the moment the transaction lands. 
+ So to hijack a wallet this way, you need its key to sign for you, and you need to hit its nonce. 
+ Step 1: Preparation (18 hours ahead)
+ The attacker's control wallet is labelled on Etherscan as "Binance Hot Wallet Exploiter" : 0x7C8601d4645b93cea45F71e118A729332e6B5CA0 . It was funded with about 1.4 ETH. Press reports say the setup money came through Tornado Cash. 
+ Time (UTC) 
+ Action 
+ 02:28 
+ Deploys sweeper v1 ( 0x19beE294...70f2bf ) 
+ 13:51 
+ Rehearsal 1: delegates a throwaway wallet to v1 and sweeps it 
+ 15:59 
+ Deploys sweeper v2 ( 0x63e842b0...9c6fae ), the one used in the attack 
+ 16:25 
+ Rehearsal 2: delegates another throwaway wallet to v2 and sweeps it 
+ 18:20 
+ Receives 1.08 ETH for gas 
+ Both rehearsals are plain to see on Etherscan. Each is a type-4 transaction delegating a test wallet to a sweeper contract. 
+ Step 2: The sweeper contract
+ Sweeper v2 is 1,674 bytes of Solidity 0.8.28. Its source on Etherscan was reconstructed from bytecode by a third party, so the function names are guesses, but the behaviour is clear: 
+ // Simplified: what the deployed bytecode does
+function sweep(address to, address[] calldata tokens) external onlyAttacker;
+// sends the wallet's full balance of each listed token, plus ETH, to `to`
+function withdrawETH(address to, uint256 amount) external onlyAttacker;
+function withdrawToken(address token, address to, uint256 amount) external onlyAttacker;
+function callExecute(address target, address to, uint256 value, bytes calldata data)
+ external payable onlyAttacker;
+// makes the delegated wallet perform any call the attacker wants
+// onlyAttacker: msg.sender must equal one hard-coded EOA (0x7C86...5CA0),
+// otherwise revert NotAuthorized()
+ Enter fullscreen mode 
+ Exit fullscreen mode 
+ The key detail is the hard-coded caller. Once a wallet delegates to this code, only the attacker can drain it . Nobody can front-run them and Binance can't simply call it back. 
+ Step 3: The takeover (20:20:59 UTC)
+ Binance 14 ( 0x28C6c06298d514Db089934071355E5743bf21d60 ) is one of Binance's busiest Ethereum hot wallets. It sends transactions constantly, so its next nonce is unpredictable. 
+ The attacker's answer: 50 authorizations, one for each nonce from 18,914,775 to 18,914,824 , all signed by Binance 14's key and all pointing at sweeper v2, packed into a single type-4 transaction. 
+ In that block, Binance's own transaction used nonce 18,914,808. The attacker's transaction landed right after, and the authorization for 809 matched. From that moment Binance 14 was running the attacker's code. 
+ The sweep followed 3 minutes 24 seconds later . 
+ Step 4: The sweeps
+ Everything went to one collector, labelled on Etherscan as "Binance Hot Wallet Exploiter 2" : 0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c . 
+ Time (UTC) 
+ Step 
+ What moved 
+ 20:24:23 
+ Sweep 1 (one tx, ~65 tokens) 
+ ~1.6B USDT, 167,464 ETH, 62.6M RLUSD, 27.8M USD1, 198M ENA, 6.19M UNI, 7.18T PEPE, 82.5 WBTC, 29,934 WBETH, 11,372 XAUt 
+ 20:24:47 
+ Hot wallet 2, plain transfers 
+ 55.7M USDT, 28,005.6 ETH, 25.9M RLUSD 
+ 20:41–21:00 
+ Circle smart account 
+ 823M USDC 
+ 21:04:23 
+ Sweep 2 
+ Customer deposits still arriving: 3.9M USDT, 1,700 ETH 
+ 21:44:11 
+ Sweep 3 
+ Binance's routine 200M USDT top-up, swept 72 seconds after it landed 
+ Two details stand out. 
+ The Circle account. Binance 14 owned a Circle smart account (a single-owner modular account). Controlling the owner meant the attacker could call execute() on it and pull out 823M USDC. Circle froze the collector at 21:04:59. It later blacklisted the victim account too, because it still delegated to the attacker's code and kept receiving deposits. 
+ Binance's automation kept feeding the hijacked wallet. The wallet that tops up Binance 14 sent its routine 200M USDT at 21:42:59, and the attacker swept it 72 seconds later. By then the collector was already frozen, so that USDT is stuck. 
+ Step 5: Why this points at the signing system, not one key
+ Here is the part that changes the story. The EIP-7702 trick was not where the attack started. 
+ Chain 
+ Key system 
+ First drain (UTC) 
+ How 
+ XRP Ledger 
+ XRPL account keys 
+ 20:05:00 
+ 5 accounts send 233.46M XRP 
+ Solana 
+ ed25519 
+ 20:10 
+ 970,522 SOL 
+ Base 
+ EVM account 
+ 20:16:19 
+ plain transfer 
+ Optimism 
+ EVM account 
+ 20:18:23 
+ plain transfer 
+ Tron 
+ Tron keys 
+ 20:19:57 
+ 312.7M USDT to a new collector 
+ Bitcoin 
+ UTXO scripts 
+ 20:20:06 
+ 18,270.2 BTC 
+ Ethereum 
+ EVM + EIP-7702 
+ 20:20:59 
+ 50 authorizations + plain transfers 
+ Arbitrum 
+ EVM account 
+ 20:30 
+ 74.56M ARB + 8,426 ETH 
+ Avalanche 
+ EVM account 
+ 20:33:18 
+ 2.26M AVAX + 8.41M USDt 
+ Polygon 
+ EVM account 
+ 23:05:55 
+ 46.6M POL + 6.19M USDT0 
+ Five different key systems were drained in one 30-minute window, mostly by ordinary signed transfers from what look like Binance's own hot wallets. One leaked private key cannot do that. 
+ What can do it is a signer that signs whatever it is handed. That also explains the only exotic step: getting 50 valid EIP-7702 authorizations out of Binance 14's key. 
+ This is consistent with: 
+ Binance's statement that a compromised DevOps engineer's laptop may have let an attacker reach a service container and submit unauthorized withdrawals, with no evidence of a private-key leak. 
+ Blockaid's preliminary view of "key misuse": the signing infrastructure was tricked, not the key extracted. 
+ To be clear, this is an inference. An insider, or a compromised withdrawal-approval system feeding the signers valid-looking requests, fits the on-chain evidence equally well. That the non-Ethereum senders belong to Binance is also inferred, because those wallets are unlabelled. 
+ Step 6: Racing the freezes
+ USDT and USDC can be frozen by their issuers. ETH, BTC, XRP and SOL cannot. So the attacker's job after the drain was to convert as much as possible before Tether and Circle reacted. They had 37 minutes before Tether blacklisted the collector at 21:01. 
+ Hop wallets. USDT moved through chains of fresh wallets. Tether blacklisted eight addresses between 21:01:35 and 21:18:59, but each hop was frozen only after the money had left it. 
+ Chain A: collector → 0x9749...c762 (500M USDT). About 325M was sold via OTC and solver settlements. The remaining 175M was frozen at 0xaa24...54a0 . 
+ Chain B: collector → 0x0ddf...697e (200M) → five more hops → 0xb171...c8c3 , where the last 30M was frozen. 
+ Fire sales. Speed mattered more than price (approximate, ETH ≈ $2,250): 
+ Sale 
+ Received 
+ Approx. discount 
+ ~325M USDT via OTC/solvers 
+ ~122,316 ETH (~$275M) 
+ ~15% 
+ 100M USDT, one swap, zero slippage limit 
+ 34,583 ETH (~$78M) 
+ ~22% 
+ ~48M RLUSD over 3 hops 
+ ~20,494 ETH (~$46M) 
+ ~4% 
+ The swaps used MetaMask's stock EIP-7702 delegator with the Uniswap Universal Router and a slippage limit of zero. 
+ A loan instead of a sale. One hop deposited 60M USDT on Aave v3 and borrowed 19,762 ETH. A freeze cannot reach ETH that has already been borrowed. The position sits near liquidation if ETH rises to about $2,366. 
+ Tokens with no freeze function were simply dumped: 7.02M UNI for ~17.6k ETH, 7.77T PEPE for ~13.6k ETH, and 217.5M ENA into a pool of only ~$2.8M. 
+ Where the money is now
+ Frozen or seized (~$2.7B): 
+ 1.38B USDT on Ethereum and 379M USDT on Tron (Tether) 
+ 823M USDC (Circle) 
+ 40.5M RLUSD (Ripple) 
+ 12,574 XAUt 
+ ~$30.5M of ETH and ARB, seized by the Arbitrum Security Council through chain governance. That's notable, because native ETH and ARB have no freeze function. 
+ Still movable: 
+ Holding 
+ Address 
+ 195,460 ETH 
+ 0x8532FA14ACAf483729C449b8458aedDb900543D4 
+ 122,310 ETH 
+ 0xc887aF690E0301CD4edBbCe8F8d31b4EC65B286A 
+ ~75k ETH 
+ 0x897C80d1a9729E94460e2Bd93178bD5215158DF3 
+ ~26.8k ETH 
+ 0x54401f80Da97893a15D43566184635B6674BC942 
+ 233.46M XRP (not moved) 
+ rK21t6...fzMx 
+ 970,522 SOL (not moved) 
+ AffzFD...BEaU 
+ 18,270 BTC 
+ split into ~1,000 BTC chunks, onward path unknown 
+ Lessons for builders
+ A few takeaways for anyone running hot wallets or signing services: 
+ EIP-7702 authorizations need their own policy. A signer that will sign a delegation tuple pointing at arbitrary code is effectively handing over the account. Treat delegation authorizations as the highest-risk message type: allow-list delegate addresses, and alert on any signing request for one. 
+ Rate and shape limits on the signer, not just the wallet. Fifty authorizations across consecutive nonces in one request is an anomaly a policy engine could flag. 
+ Assume your automation will keep feeding a compromised wallet. Top-up and sweep jobs should halt automatically when a hot wallet shows unexpected code (for example, a non-empty 0xef0100... delegation designator) or unusual outflows. 
+ Watch for delegated smart accounts owned by your EOAs. The Circle account was drained through its owner. Compromise the owner, compromise everything it controls. 
+ Freezes are a race measured in minutes. Issuers reacted in roughly 37 minutes; the attacker had already converted hundreds of millions. Pre-arranged emergency contacts with issuers and bridge operators matter. 
+ What we still don't know
+ How exactly the signatures were obtained, beyond Binance's "compromised engineer laptop" statement. 
+ Who did it. TRM Labs, Blockaid and ZachXBT suspect North Korean groups such as Lazarus or TraderTraitor. That is an assessment, not a confirmed attribution. 
+ Where the BTC chunks went. 
+ Whether Tether will burn and reissue the frozen USDT, as it has done before. 
+ Binance has suspended deposits and withdrawals and says it will cover all losses from its SAFU fund and company money. If you hold funds there, that's their promise, not a guarantee. 
+ And a final warning: these wallets are now famous. Expect fake "recovery" services, people offering a cut of the money, airdrops from these addresses and links asking you to connect your wallet. Don't interact with any of them. 
+ Sources
+ binance.lamps.works : independent live tracker and breakdown; marks each claim verified or inferred 
+ Etherscan: main collector (Exploiter 2) 
+ Etherscan: the 50-authorization takeover tx 
+ Etherscan: sweeper v2 contract 
+ Etherscan: sweeper v1 deployment 
+ Etherscan: rehearsal on sweeper v2 
+ Cointelegraph: live updates 
+ CoinDesk: Binance loses $5.7B in largest crypto hack 
+ The Block: Binance investigating hack 
+ All figures are estimates as of 30 October 2026. This is an analysis of public on-chain data, not financial or legal advice. 
+ Top comments (0) 
+ Subscribe 
+ Personal 
+ Trusted User 
+ Create template
+ Templates let you quickly answer FAQs or store snippets for re-use. 
+ Submit 
+ Preview 
+ Dismiss 
+ Code of Conduct 
+ • 
+ Report abuse 
+ Are you sure you want to hide this comment? It will become hidden in your post, but will still be visible via the comment's permalink .
+ Hide child comments as well 
+ Confirm
+ For further actions, you may consider blocking this person and/or reporting abuse 
+ Prakash Pawar
+ Follow 
+ Software Engineer
+Author of "Programming for the Whole Family"
+Write about AI, Crypto, Tech, and Finance.
+ Location
+ India
+ Education
+ I.T Engineer
+ Work
+ Software Development Engineer III
+ Joined
+ Jun 25, 2018 
+ More from Prakash Pawar 
+ Building a Blockchain in 2026: From-Scratch Engineering vs. Modern SDKs
+ # blockchain 
+ # web3 
+ # cryptocurrency 
+ # discuss 
+ How I Built a Free AnyDesk Alternative Using Sunshine, Moonlight & Tailscale
+ # opensource 
+ # networking 
+ # security 
+ # tooling 
+ DEV Community — A space to discuss and keep up software development and manage your software career
+ Home
+ DEV Challenges
+ DEV++
+ Videos
+ DEV Education Tracks
+ DEV Help
+ Advertise on DEV
+ Organization Accounts
+ DEV Showcase
+ About
+ Contact
+ Free Postgres Database
+ DEV Shop
+ MLH
+ Code of Conduct
+ Privacy Policy
+ Terms of Use
+ Built on Forem — the open source software that powers DEV and other inclusive communities. 
+ Made with love and Ruby on Rails . DEV Community © 2016 - 2026. 
+ We're a place where coders share, stay up-to-date and grow their careers.
+ Log in
+ Create account

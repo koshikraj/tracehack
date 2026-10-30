@@ -1,0 +1,1 @@
+{"url": "https://polygon-bor-rpc.publicnode.com", "body": {"jsonrpc": "2.0", "id": 1, "method": "eth_getBalance", "params": ["0x03b0ee5d82990cff1bda48651ac3e436d1a020ea", "latest"]}, "fetched_utc": "2026-10-30T06:18:20Z", "response": {"jsonrpc": "2.0", "id": 1, "result": "0x0"}}

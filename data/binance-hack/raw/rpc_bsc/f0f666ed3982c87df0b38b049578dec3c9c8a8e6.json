@@ -1,0 +1,1 @@
+{"url": "https://bsc-rpc.publicnode.com", "body": {"jsonrpc": "2.0", "id": 1, "method": "eth_getBalance", "params": ["0x7f9DC988B46336aD536828fAD50fa8fA1E5415E3", "latest"]}, "fetched_utc": "2026-10-30T06:18:46Z", "response": {"jsonrpc": "2.0", "id": 1, "result": "0x28fa6ae00"}}

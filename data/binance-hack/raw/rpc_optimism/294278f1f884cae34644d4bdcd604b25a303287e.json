@@ -1,0 +1,1 @@
+{"url": "https://optimism-rpc.publicnode.com", "body": {"jsonrpc": "2.0", "id": 1, "method": "eth_getTransactionCount", "params": ["0x897C80d1a9729E94460e2Bd93178bD5215158DF3", "latest"]}, "fetched_utc": "2026-10-30T06:17:29Z", "response": {"jsonrpc": "2.0", "id": 1, "result": "0x0"}}

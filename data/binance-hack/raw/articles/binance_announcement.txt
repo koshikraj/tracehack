@@ -1,0 +1,14 @@
+SOURCE: https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7
+CAPTURED: 2026-10-30 via search-index snippet (direct fetch returned empty JS shell). Page header "Published on 2026-10-29 19:23" (timezone not stated on page); footer dated 2026-10-30.
+
+Security Incident Update
+Fellow Binancians,
+Binance's initial investigation suggests that the security incident may involve a compromised DevOps engineer's laptop, which allowed an attacker to gain access to a service container and submit unauthorized withdrawal transactions. We have found no evidence of any wallet private key leak. We will share a detailed technical post-mortem once the investigation is complete and the facts are fully verified.
+The estimated total impact sits at around $6.3B. We have worked with blockchain partners to freeze affected assets, with ~$3 billion frozen on-chain so far.
+Binance will cover all losses from the SAFU fund and the company's funds. User funds are safe. We will also publish an updated Proof of Reserves once the remediation is complete.
+As an immediate precaution, Binance has:
+- temporarily suspended deposits and withdrawals while security checks are completed;
+- revoked the affected address authorisation;
+- engaged law enforcement and blockchain intelligence partners to trace and recover funds.
+...
+Binance Team 2026-10-30

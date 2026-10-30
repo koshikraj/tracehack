@@ -1,0 +1,1 @@
+{"url": "https://avalanche-c-chain-rpc.publicnode.com", "body": {"jsonrpc": "2.0", "id": 1, "method": "eth_getTransactionCount", "params": ["0x79e70d139fC05AA75F75611fDF2680E9952B544A", "latest"]}, "fetched_utc": "2026-10-30T06:18:01Z", "response": {"jsonrpc": "2.0", "id": 1, "result": "0x0"}}

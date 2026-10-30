@@ -1,0 +1,1 @@
+{"url": "https://base-rpc.publicnode.com", "body": {"jsonrpc": "2.0", "id": 1, "method": "eth_getTransactionCount", "params": ["0x15104a9ce0f08a8f0075a0869ae80e795fe0feb7", "latest"]}, "fetched_utc": "2026-10-30T06:17:55Z", "response": {"jsonrpc": "2.0", "id": 1, "result": "0x0"}}

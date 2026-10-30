@@ -1,0 +1,1 @@
+{"url": "https://bsc-rpc.publicnode.com", "body": {"jsonrpc": "2.0", "id": 1, "method": "eth_getTransactionCount", "params": ["0x9749292D74Fd460982d0912eA9515EA24736C762", "latest"]}, "fetched_utc": "2026-10-30T06:18:44Z", "response": {"jsonrpc": "2.0", "id": 1, "result": "0x0"}}

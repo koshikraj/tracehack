@@ -1,0 +1,1 @@
+{"url": "https://base-rpc.publicnode.com", "body": {"jsonrpc": "2.0", "id": 1, "method": "eth_getBalance", "params": ["0xCd684D22E8C3600E6eE93B5a57923c3b517f3396", "latest"]}, "fetched_utc": "2026-10-30T06:17:55Z", "response": {"jsonrpc": "2.0", "id": 1, "result": "0x0"}}
