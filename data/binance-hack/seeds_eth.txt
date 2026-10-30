@@ -1,0 +1,24 @@
+0x7C8601d4645b93cea45F71e118A729332e6B5CA0 operator EOA (Tornado-funded) - officer_secret/Arkham/adamm285
+0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c primary collection - Blockaid
+0x8532fa14acaf483729c449b8458aeddb900543d4 ETH holder - officer_secret
+0xAa246BF639586a6Ba46762D378CE50cA4fc654a0 175M USDT wallet - justinkalland
+0x79e70d139fC05AA75F75611fDF2680E9952B544A consolidation - PeckShield
+0x8d4b8EE62124B7ee140A51dDd07390A56F1c9E19 consolidation - PeckShield
+0x8d53903625b8e839b9DF4bd28B0EFb1CD6b8639A Exploiter 3 (Etherscan label via flatline_crypto); Aave hop per adamm285; Blockaid destination
+0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb Exploiter 4 (flatline_crypto)
+0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1 Exploiter 5 (flatline_crypto)
+0xCcBEF95633ADB5Cd2b5038DB5a38d77E726cA263 Exploiter 6 (flatline_crypto)
+0xb171cA86f82070282138352Ff7111b494060c8c3 Exploiter 7 (flatline_crypto)
+0x3E2bf1ac6bf0934BBba6456C341c2EcbCED632d5 Exploiter 9 (flatline_crypto); Arbitrum frozen (zachxbt)
+0x0Ddf0480016e6bCb2C1F5d190D221FBA1320697e Exploiter 10 (flatline_crypto); Blockaid destination
+0x897C80d1a9729E94460e2Bd93178bD5215158DF3 Exploiter 11 (flatline_crypto)
+0x600d6F00eadAbDb514561Ceeb43730a7103e8298 Exploiter 12 PEPE dump (flatline_crypto)
+0x0e772ee615C7f93373c7519f2C36e780696477D3 Exploiter 13 (flatline_crypto)
+0x7f9DC988B46336aD536828fAD50fa8fA1E5415E3 Exploiter 14 (flatline_crypto)
+0x42CDF00c85005630CC8605731B9364F712077810 Exploiter 15 (flatline_crypto)
+0xE7024aB80143b1EF843EFE6a58368696Cb87958d Exploiter 16 (flatline_crypto)
+0x54401f80Da97893a15D43566184635B6674BC942 Exploiter 17 (flatline_crypto)
+0x9749292D74Fd460982d0912eA9515EA24736C762 Exploiter 18 (flatline_crypto); Blockaid destination
+0xc887aF690E0301CD4edBbCe8F8d31b4EC65B286A Exploiter 19 (flatline_crypto); 122,310 ETH (openheyhi)
+0x15104a9ce0f08a8f0075a0869ae80e795fe0feb7 THORChain commingling w/ Bitget (OnchainLens/zachxbt)
+0xCd684D22E8C3600E6eE93B5a57923c3b517f3396 Phemex-linked bridge dest (MistTrack)
