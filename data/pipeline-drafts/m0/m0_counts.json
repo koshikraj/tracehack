@@ -1,0 +1,65 @@
+{
+ "eth_edges_in": 1953,
+ "tron_edges_in": 1221,
+ "btc_edges_in": 81,
+ "clean": {
+  "eth": 1783,
+  "tron": 799,
+  "btc": 51
+ },
+ "removed": {
+  "eth": 170,
+  "tron": 422,
+  "btc": 30
+ },
+ "removed_by_rule": {
+  "eth:fake_token": 156,
+  "eth:zero_value_transfer": 3,
+  "eth:lookalike_endpoint": 6,
+  "eth:dust_poisoning": 1,
+  "eth:pre_exploit_unrelated": 4,
+  "tron:fake_token": 2,
+  "tron:dust_poisoning": 420,
+  "btc:dust_poisoning": 30
+ },
+ "pre_exploit": 19,
+ "excluded_by_reason": {
+  "btc:dust_sender": 17,
+  "eth:fake_token_contract": 15,
+  "eth:lookalike_vanity": 71,
+  "eth:zero_address": 1,
+  "tron:dust_poisoning_sender": 414,
+  "tron:fake_or_spam_token_contract": 1,
+  "tron:service_contract_not_attacker": 7,
+  "eth:service_contract_mixer": 2
+ },
+ "seeds_by_chain_role": {
+  "eth:victim_hot_wallet": 3,
+  "eth:victim_or_binance": 3,
+  "eth:attacker_operator": 2,
+  "eth:attacker_contract": 2,
+  "eth:attacker_frozen": 8,
+  "eth:attacker_held": 19,
+  "arb:attacker_rescued": 1,
+  "eth:commingled_counterparty": 10,
+  "eth:related_incident": 5,
+  "arb:victim_hot_wallet": 3,
+  "avalanche:victim_hot_wallet": 4,
+  "btc:victim_hot_wallet": 1,
+  "btc:attacker_held": 20,
+  "tron:victim_hot_wallet": 1,
+  "tron:attacker_frozen": 2,
+  "tron:attacker_held": 4,
+  "xrp:attacker_held": 1,
+  "sol:victim_hot_wallet": 1,
+  "sol:attacker_held": 1,
+  "btc:candidate_hop": 10,
+  "avalanche:attacker_held": 1,
+  "polygon:attacker_held": 1,
+  "tron:candidate_hop": 29,
+  "eth:candidate_hop": 15,
+  "eth:attacker_prep_contract_or_test_target (lead)": 4
+ },
+ "tron_trc20_token_contract_unrecovered": 0,
+ "drain_tokens": 64
+}

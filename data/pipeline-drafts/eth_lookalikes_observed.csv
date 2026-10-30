@@ -1,0 +1,49 @@
+group_prefix4_suffix4,anchor_address(in labels/seeds/check list),lookalike_address,edges_touching_lookalike,source_file,note
+0x0084…4c81,0x0084847bb9384d2fc5e8836e663689467e3e4c81,0x008402c37bf16fee3444df581b05af8e25384c81,2,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x008f…7dcd,(none known: group of unlabeled addrs),0x008f06f04b72da2621a4f37f5531cc7352187dcd,7,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x008f…7dcd,(none known: group of unlabeled addrs),0x008f3fb9ca4be57ce01d34212eefe806ef687dcd,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x06ea…685f,0x06ea1ab3ecf570029eb1f94dbb9eac06bc79685f,0x06ea3cb450fef3e35dd5675b850ff03313bc685f,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x0ddf…697e,0x0ddf0480016e6bcb2c1f5d190d221fba1320697e,0x0ddf2795c768e21415fe758f7962a6cbf111697e,2,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x1291…16b1,(none known: group of unlabeled addrs),0x129118585d9c096cec8f239c319f57a55eb616b1,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x1291…16b1,(none known: group of unlabeled addrs),0x1291be4c90239d14527ba880ad2b6e5cb82116b1,19,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x3e2b…32d5,0x3e2bf1ac6bf0934bbba6456c341c2ecbced632d5,0x3e2b3110f0c54717cdbe5dcf78404a9b8e2b32d5,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x470b…f0a4,(none known: group of unlabeled addrs),0x470b3f37e4afabbb0cbf02024b171da89fa5f0a4,3,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x470b…f0a4,(none known: group of unlabeled addrs),0x470b8cf5a0735f5fe98a089afe7a56c3756cf0a4,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x4784…c096,0x4784c6f0ac85643eb742153fa346eefa1ad1c096,0x478445c6d493b8263b7a1cd64ae433bc3d61c096,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x4784…c096,0x4784c6f0ac85643eb742153fa346eefa1ad1c096,0x478491b2f5fe1e479b4bece67eeae669e420c096,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x5440…c942,0x54401f80da97893a15d43566184635b6674bc942,0x5440190bf1b577832247cfdcddd18b351e08c942,2,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x5440…c942,0x54401f80da97893a15d43566184635b6674bc942,0x5440245a0729662e7d882d3f06de97acd151c942,4,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x5440…c942,0x54401f80da97893a15d43566184635b6674bc942,0x54405f74334d7e52771e513c5145e0d8688fc942,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x5c23…a4fc,(none known: group of unlabeled addrs),0x5c23023ca6633f91ded909b4a753a3ca00fea4fc,7,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x5c23…a4fc,(none known: group of unlabeled addrs),0x5c234c1bbc39dbf8a2bfca812dbb4a2d3fdda4fc,2,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x5c23…a4fc,(none known: group of unlabeled addrs),0x5c23e6c2c03e149c79cde520163ed12503fea4fc,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x70ec…5085,(none known: group of unlabeled addrs),0x70ec644699b827bd482779916c99bf3dd7c75085,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x70ec…5085,(none known: group of unlabeled addrs),0x70ec6a2e91a9f8d11c29866c75e0724d5a665085,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x77ed…c3eb,0x77edef23fbd05921c26fe29fcc3a65e14d2ac3eb,0x77ed4fae0842c13fb0dd311d43a449a9f66ec3eb,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x79e7…544a,0x79e70d139fc05aa75f75611fdf2680e9952b544a,0x79e727f1cc398fe913de5ecb9a075acb51bf544a,2,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x79e7…544a,0x79e70d139fc05aa75f75611fdf2680e9952b544a,0x79e77735a5c56f3da896b3cc3aed4b8d8be0544a,2,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x7aa4…bfd1,0x7aa4d3029e4c6a8e916300014ad95b6d6c03bfd1,0x7aa4fed8e29d54ac956786f679e84b765c37bfd1,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x7dcb…77e2,0x7dcb564ae3ab5f25fda877882a4739e597a377e2,0x7dcb3f757be4cbc24d69dd897890c13beb1977e2,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x7f9d…15e3,0x7f9dc988b46336ad536828fad50fa8fa1e5415e3,0x7f9ddeb7598cec546faefb88243e59711ffe15e3,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x811f…e84c,(none known: group of unlabeled addrs),0x811f15855476156ebf86ba3b84fafb8ceaa4e84c,10,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x811f…e84c,(none known: group of unlabeled addrs),0x811fbc8a4959cedee16875585fc17d5e6c76e84c,2,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x8532…43d4,0x8532fa14acaf483729c449b8458aeddb900543d4,0x85324f2672a1ddcf646b4e2c2d57fe5e483e43d4,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x8d4b…9e19,0x8d4b8ee62124b7ee140a51ddd07390a56f1c9e19,0x8d4b8d1ce156b5815a2afd9b1cf9b52212689e19,3,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x8d53…639a,0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a,0x8d53f50a1772d0683b86c052d9a1e118ed7a639a,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0x9749…c762,0x9749292d74fd460982d0912ea9515ea24736c762,0x9749110a86941480dbefca1efdc0ceb528a0c762,3,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0xaa24…54a0,0xaa246bf639586a6ba46762d378ce50ca4fc654a0,0xaa24672fa1aa97dedb7bf82a330c3b950fdb54a0,2,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0xb09b…7c62,0xb09b0daba8fa67e077390199e6745bd57caf7c62,0xb09b06ab47ec6c5100216db674c10e23e1a47c62,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0xb171…c8c3,0xb171ca86f82070282138352ff7111b494060c8c3,0xb171e34b3078cf3db8dfb5ef261b1a4472c2c8c3,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0xb3dd…5fdb,(none known: group of unlabeled addrs),0xb3ddc0c26d87655452a86cd7b4dd90d084065fdb,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0xb3dd…5fdb,(none known: group of unlabeled addrs),0xb3ddec0ccc5c3ba733fcdf5a15f98c95ec5a5fdb,259,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0xc887…286a,0xc887af690e0301cd4edbbce8f8d31b4ec65b286a,0xc8875596a587070f0cb31bdafeae0b326d51286a,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0xc887…286a,0xc887af690e0301cd4edbbce8f8d31b4ec65b286a,0xc88770490eacead36f6c0a19d1833ac29123286a,2,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0xccbe…a263,0xccbef95633adb5cd2b5038db5a38d77e726ca263,0xccbe85874b8621c9d81a79ea792e3e865ed7a263,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0xcf4c…23e0,(none known: group of unlabeled addrs),0xcf4c3997e2729c6ec97af40f4e5493f1200323e0,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0xcf4c…23e0,(none known: group of unlabeled addrs),0xcf4ca2bdf21bc3a467a00b6afe72b833982723e0,95,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0xdd6d…2296,0xdd6dbbe67262ccc9b1824de1257999efc6c52296,0xdd6de43a3a1a1575380a0e6d6bb3c2ba1ea22296,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0xe347…1964,(none known: group of unlabeled addrs),0xe3478b0bb1a5084567c319096437924948be1964,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0xe347…1964,(none known: group of unlabeled addrs),0xe347a7aa40f814469279760735c289cbcdbe1964,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0xe55d…787a,0xe55d10dfef2f7f71e130944821d003693e62787a,0xe55d859a85cdf2f0109d0bfb138a834fe80b787a,2,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0xe702…958d,0xe7024ab80143b1ef843efe6a58368696cb87958d,0xe7024c5eec698efffee97f67c207004ca372958d,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
+0xe702…958d,0xe7024ab80143b1ef843efe6a58368696cb87958d,0xe702c3d2c398dee021a5ce3a989a19370696958d,1,/workspace/binance-hack/out/eth_edges.csv,candidate spoof; verify vs excluded_addresses.csv
