@@ -1,0 +1,261 @@
+@import "tailwindcss";
+
+/* Trace the Hack: "transit map for stolen money".
+   Cool survey-paper surfaces, graphite ink, and five saturated route colours for fund states
+   (CVD-validated in both modes with the dataviz validator). No exchange brand colours. */
+:root {
+  color-scheme: light;
+  --bg: #e9ecf1;
+  --surface: #ffffff;
+  --surface-2: #f2f4f7;
+  --raised: #ffffff;
+  --map: #f6f7f9;
+  --map-dot: rgba(20, 22, 27, 0.07);
+  --ink: #14161b;
+  --ink-2: #4a4f5c;
+  --muted: #868b97;
+  --line: #e2e5ea;
+  --line-2: #cdd1d9;
+  --focus: #2563eb;
+  --lane-a: rgba(20, 22, 27, 0.018);
+  --lane-b: rgba(20, 22, 27, 0.04);
+  --shadow: 0 1px 2px rgba(20, 22, 27, 0.06), 0 8px 24px -8px rgba(20, 22, 27, 0.14);
+  --shadow-lg: 0 2px 6px rgba(20, 22, 27, 0.06), 0 24px 48px -12px rgba(20, 22, 27, 0.22);
+
+  --st-held: #f2541b;
+  --st-frozen: #2563eb;
+  --st-frozen-unv: #8fb0f5;
+  --st-recovered: #0ea47a;
+  --st-lending: #7048e8;
+  --st-commingled: #e0409a;
+  --st-unclassified: #a3a8b3;
+  --st-service: #6b7080;
+  --st-source: #14161b;
+  --st-infra: #4a4f5c;
+  --st-related: #c3c7cf;
+
+  --good: #0ea47a;
+
+  /* Hop, the assistant mascot */
+  --hop-hood-top: #2a2f3a;
+  --hop-hood-bottom: #14161b;
+  --hop-hood-flat: #14161b;
+  --hop-edge: #14161b;
+  --hop-string: #3a404c;
+  --hop-paw: #2a2f3a;
+  --hop-shadow: rgba(20, 22, 27, 0.14);
+  --hop-accent: #4a4f5c;
+  --hop-on-accent: #ffffff;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.4, 0.64, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #0b0d11;
+    --surface: #14171d;
+    --surface-2: #1b1f27;
+    --raised: #1a1e25;
+    --map: #0f1217;
+    --map-dot: rgba(238, 240, 244, 0.06);
+    --ink: #eef0f4;
+    --ink-2: #b8bdc8;
+    --muted: #7c8290;
+    --line: #262a33;
+    --line-2: #353a45;
+    --focus: #4f86ff;
+    --lane-a: rgba(238, 240, 244, 0.012);
+    --lane-b: rgba(238, 240, 244, 0.03);
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px -8px rgba(0, 0, 0, 0.6);
+    --shadow-lg: 0 2px 6px rgba(0, 0, 0, 0.4), 0 24px 48px -12px rgba(0, 0, 0, 0.7);
+    --st-held: #f2602a;
+    --st-frozen: #4f86ff;
+    --st-frozen-unv: #3f5f9e;
+    --st-recovered: #14ad80;
+    --st-lending: #9277ff;
+    --st-commingled: #e74a9f;
+    --st-unclassified: #5d636f;
+    --st-service: #9aa0ad;
+    --st-source: #eef0f4;
+    --st-infra: #b8bdc8;
+    --st-related: #3a3f4a;
+    --good: #14ad80;
+    --hop-hood-top: #4a5263;
+    --hop-hood-bottom: #2c313c;
+    --hop-hood-flat: #4a5263;
+    --hop-edge: #9aa3b5;
+    --hop-string: #9aa3b5;
+    --hop-paw: #5a6273;
+    --hop-shadow: rgba(0, 0, 0, 0.45);
+    --hop-accent: #e8eeff;
+    --hop-on-accent: #14161b;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0b0d11;
+  --surface: #14171d;
+  --surface-2: #1b1f27;
+  --raised: #1a1e25;
+  --map: #0f1217;
+  --map-dot: rgba(238, 240, 244, 0.06);
+  --ink: #eef0f4;
+  --ink-2: #b8bdc8;
+  --muted: #7c8290;
+  --line: #262a33;
+  --line-2: #353a45;
+  --focus: #4f86ff;
+  --lane-a: rgba(238, 240, 244, 0.012);
+  --lane-b: rgba(238, 240, 244, 0.03);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px -8px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 2px 6px rgba(0, 0, 0, 0.4), 0 24px 48px -12px rgba(0, 0, 0, 0.7);
+  --st-held: #f2602a;
+  --st-frozen: #4f86ff;
+  --st-frozen-unv: #3f5f9e;
+  --st-recovered: #14ad80;
+  --st-lending: #9277ff;
+  --st-commingled: #e74a9f;
+  --st-unclassified: #5d636f;
+  --st-service: #9aa0ad;
+  --st-source: #eef0f4;
+  --st-infra: #b8bdc8;
+  --st-related: #3a3f4a;
+  --good: #14ad80;
+  --hop-hood-top: #4a5263;
+  --hop-hood-bottom: #2c313c;
+  --hop-hood-flat: #4a5263;
+  --hop-edge: #9aa3b5;
+  --hop-string: #9aa3b5;
+  --hop-paw: #5a6273;
+  --hop-shadow: rgba(0, 0, 0, 0.45);
+  --hop-accent: #e8eeff;
+  --hop-on-accent: #14161b;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-raised: var(--raised);
+  --color-map: var(--map);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-line-2: var(--line-2);
+  --color-focus: var(--focus);
+  --color-held: var(--st-held);
+  --color-frozen: var(--st-frozen);
+  --font-sans: var(--font-plex), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-plex-cond), var(--font-plex), ui-sans-serif, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+  --shadow-card: var(--shadow);
+  --shadow-float: var(--shadow-lg);
+}
+
+html, body { height: 100%; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-plex), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.num { font-variant-numeric: tabular-nums; }
+.mono { font-family: var(--font-plex-mono), ui-monospace, monospace; }
+.display { font-family: var(--font-plex-cond), var(--font-plex), sans-serif; }
+
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
+
+.scroll-thin { scrollbar-width: thin; scrollbar-color: var(--line-2) transparent; }
+
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 999px; flex: none; }
+
+/* Hop on an ink-coloured surface (e.g. the dark "Ask Hop" button in light mode) uses the dark-theme tokens. */
+.hop-on-ink {
+  --hop-hood-top: #4a5263;
+  --hop-hood-bottom: #2c313c;
+  --hop-hood-flat: #4a5263;
+  --hop-edge: #9aa3b5;
+  --hop-string: #9aa3b5;
+  --hop-paw: #5a6273;
+  --hop-shadow: rgba(0, 0, 0, 0.45);
+  --hop-accent: #e8eeff;
+  --hop-on-accent: #14161b;
+}
+/* ---------- Hop animation ----------
+   Idle: float, breathing shadow, blink, antenna pulse. Per mood: happy sways, thinking glances,
+   found jumps with twinkling sparkles, surprised startles, sad droops with a tear. The face pops on
+   every change of expression (it is keyed by mood). Small glyphs only blink. */
+.hop .hop-body { animation: hop-bob 3.2s ease-in-out infinite; }
+.hop .hop-shadow { transform-box: fill-box; transform-origin: center; animation: hop-shadow 3.2s ease-in-out infinite; }
+.hop .hop-eyes { transform-box: fill-box; transform-origin: center; animation: hop-blink 5.2s ease-in-out infinite; }
+.hop .hop-node { animation: hop-node 2.4s ease-in-out infinite; }
+.hop .hop-face { transform-origin: 100px 114px; animation: hop-pop .45s var(--ease-spring) both; }
+
+.hop-happy .hop-body { transform-origin: 100px 186px; animation: hop-sway 3.6s ease-in-out infinite; }
+.hop-thinking .hop-eyes { animation: hop-look 2.6s ease-in-out infinite; }
+.hop-thinking .hop-node { animation-duration: .8s; }
+.hop-think circle { animation: hop-think 1.2s ease-in-out infinite; }
+.hop-think circle:nth-child(2) { animation-delay: .2s; }
+.hop-think circle:nth-child(3) { animation-delay: .4s; }
+.hop-found .hop-body { animation: hop-jump .7s var(--ease-out) 1, hop-bob 3.2s ease-in-out .7s infinite; }
+.hop-sparkle { transform-box: fill-box; transform-origin: center; animation: hop-twinkle 1.4s ease-in-out infinite; }
+.hop-sparkle-2 { animation-delay: .5s; }
+.hop-surprised .hop-body { transform-origin: 100px 186px; animation: hop-startle .55s ease-out 1, hop-bob 3.2s ease-in-out .55s infinite; }
+.hop-badge { transform-box: fill-box; transform-origin: center; animation: hop-pop .5s var(--ease-spring) both; }
+.hop-sad .hop-body { animation: hop-droop 4s ease-in-out infinite; }
+.hop-tear { animation: hop-tear 2.8s ease-in infinite; }
+
+.hop-compact .hop-body, .hop-compact .hop-face { animation: none; }
+.hop-still *, .hop-still { animation: none !important; }
+
+@keyframes hop-bob { 0%, 100% { transform: translateY(0) } 50% { transform: translateY(-5px) } }
+@keyframes hop-shadow { 0%, 100% { transform: scaleX(1); opacity: 1 } 50% { transform: scaleX(.86); opacity: .7 } }
+@keyframes hop-blink { 0%, 88%, 100% { transform: scaleY(1) } 91% { transform: scaleY(.12) } 94% { transform: scaleY(1) } }
+@keyframes hop-node { 0%, 100% { opacity: .55 } 50% { opacity: 1 } }
+@keyframes hop-pop { 0% { transform: scale(.82); opacity: .3 } 100% { transform: scale(1); opacity: 1 } }
+@keyframes hop-sway { 0%, 100% { transform: rotate(-3deg) translateY(0) } 50% { transform: rotate(3deg) translateY(-4px) } }
+@keyframes hop-look { 0%, 100% { transform: translateX(-4px) } 45%, 55% { transform: translateX(5px) } }
+@keyframes hop-think { 0%, 100% { opacity: .35 } 50% { opacity: 1 } }
+@keyframes hop-jump { 0% { transform: translateY(0) } 35% { transform: translateY(-16px) } 70% { transform: translateY(2px) } 100% { transform: translateY(0) } }
+@keyframes hop-twinkle { 0%, 100% { transform: scale(.6) rotate(0); opacity: .5 } 50% { transform: scale(1.12) rotate(20deg); opacity: 1 } }
+@keyframes hop-startle { 0% { transform: translateY(0) rotate(0) } 20% { transform: translateY(-10px) rotate(-5deg) } 40% { transform: translateY(-10px) rotate(5deg) } 60% { transform: translateY(-4px) rotate(-3deg) } 100% { transform: translateY(0) rotate(0) } }
+@keyframes hop-droop { 0%, 100% { transform: translateY(2px) } 50% { transform: translateY(5px) } }
+@keyframes hop-tear { 0% { transform: translateY(0); opacity: 0 } 15% { opacity: .9 } 80% { transform: translateY(14px); opacity: .8 } 100% { transform: translateY(18px); opacity: 0 } }
+
+/* ---------- motion (all answer a user action, except the live pulse) ---------- */
+@keyframes pulse-ring { 0% { transform: scale(.9); opacity: .7 } 100% { transform: scale(2.2); opacity: 0 } }
+.live-pulse { position: relative; }
+.live-pulse::after {
+  content: ""; position: absolute; inset: 0; border-radius: 999px; background: currentColor;
+  animation: pulse-ring 1.8s var(--ease-out) infinite;
+}
+
+@keyframes view-in { from { opacity: 0; transform: translateY(8px) scale(.995) } to { opacity: 1; transform: none } }
+.view-in { animation: view-in .38s var(--ease-out) both; }
+
+@keyframes drawer-in { from { opacity: 0; transform: translateX(24px) } to { opacity: 1; transform: none } }
+.drawer-in { animation: drawer-in .42s var(--ease-out) both; }
+
+@keyframes pop-in { from { opacity: 0; transform: translateY(6px) scale(.97) } to { opacity: 1; transform: none } }
+.pop-in { animation: pop-in .32s var(--ease-spring) both; }
+
+@keyframes bar-grow { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+.bar-grow { transform-origin: left; animation: bar-grow .9s var(--ease-out) both; }
+
+@keyframes shimmer { 0% { background-position: -200% 0 } 100% { background-position: 200% 0 } }
+.shimmer {
+  background: linear-gradient(90deg, var(--muted) 0%, var(--ink) 50%, var(--muted) 100%);
+  background-size: 200% 100%; -webkit-background-clip: text; background-clip: text; color: transparent;
+  animation: shimmer 1.6s linear infinite;
+}
+
+.press { transition: transform .12s var(--ease-out), background-color .15s, color .15s, box-shadow .15s; }
+.press:active { transform: scale(.97); }
+
+@media (prefers-reduced-motion: reduce) {
+  .live-pulse::after, .view-in, .drawer-in, .pop-in, .bar-grow, .shimmer, .hop *, .hop { animation: none !important; }
+  .shimmer { color: var(--muted); background: none; }
+}
