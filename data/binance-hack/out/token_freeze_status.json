@@ -1,0 +1,143 @@
+{
+ "0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c": {
+  "XAUT": {
+   "fn": "isBlocked(address)",
+   "frozen": true
+  },
+  "PAXG": {
+   "fn": "isFrozen(address)",
+   "frozen": true
+  },
+  "USD1": {
+   "fn": "frozen(address)",
+   "frozen": true
+  },
+  "FDUSD": {
+   "fn": "frozen(address)",
+   "frozen": true
+  },
+  "RLUSD": "no-known-getter",
+  "WBETH": {
+   "fn": "isBlacklisted(address)",
+   "frozen": false
+  },
+  "WLFI": {
+   "fn": "isBlacklisted(address)",
+   "frozen": true
+  },
+  "USDT": {
+   "fn": "isBlackListed(address)",
+   "frozen": true
+  },
+  "USDC": {
+   "fn": "isBlacklisted(address)",
+   "frozen": true
+  }
+ },
+ "0x7f9DC988B46336aD536828fAD50fa8fA1E5415E3": {
+  "XAUT": {
+   "fn": "isBlocked(address)",
+   "frozen": false
+  },
+  "PAXG": {
+   "fn": "isFrozen(address)",
+   "frozen": false
+  },
+  "USD1": {
+   "fn": "frozen(address)",
+   "frozen": false
+  },
+  "FDUSD": {
+   "fn": "frozen(address)",
+   "frozen": false
+  },
+  "RLUSD": "no-known-getter",
+  "WBETH": {
+   "fn": "isBlacklisted(address)",
+   "frozen": true
+  },
+  "WLFI": {
+   "fn": "isBlacklisted(address)",
+   "frozen": false
+  },
+  "USDT": {
+   "fn": "isBlackListed(address)",
+   "frozen": false
+  },
+  "USDC": {
+   "fn": "isBlacklisted(address)",
+   "frozen": false
+  }
+ },
+ "0xE7024aB80143b1EF843EFE6a58368696Cb87958d": {
+  "XAUT": {
+   "fn": "isBlocked(address)",
+   "frozen": false
+  },
+  "PAXG": {
+   "fn": "isFrozen(address)",
+   "frozen": false
+  },
+  "USD1": {
+   "fn": "frozen(address)",
+   "frozen": false
+  },
+  "FDUSD": {
+   "fn": "frozen(address)",
+   "frozen": true
+  },
+  "RLUSD": "no-known-getter",
+  "WBETH": {
+   "fn": "isBlacklisted(address)",
+   "frozen": false
+  },
+  "WLFI": {
+   "fn": "isBlacklisted(address)",
+   "frozen": false
+  },
+  "USDT": {
+   "fn": "isBlackListed(address)",
+   "frozen": false
+  },
+  "USDC": {
+   "fn": "isBlacklisted(address)",
+   "frozen": false
+  }
+ },
+ "0x28C6c06298d514Db089934071355E5743bf21d60": {
+  "XAUT": {
+   "fn": "isBlocked(address)",
+   "frozen": false
+  },
+  "PAXG": {
+   "fn": "isFrozen(address)",
+   "frozen": false
+  },
+  "USD1": {
+   "fn": "frozen(address)",
+   "frozen": true
+  },
+  "FDUSD": {
+   "fn": "frozen(address)",
+   "frozen": true
+  },
+  "RLUSD": "no-known-getter",
+  "WBETH": {
+   "fn": "isBlacklisted(address)",
+   "frozen": false
+  },
+  "WLFI": {
+   "fn": "isBlacklisted(address)",
+   "frozen": true
+  },
+  "USDT": {
+   "fn": "isBlackListed(address)",
+   "frozen": true
+  },
+  "USDC": {
+   "fn": "isBlacklisted(address)",
+   "frozen": true
+  }
+ },
+ "_checked_utc": "2026-10-30T06:27:42Z"
+}

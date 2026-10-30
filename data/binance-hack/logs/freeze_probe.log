@@ -1,0 +1,36 @@
+0x5227f603 XAUT {'fn': 'isBlocked(address)', 'frozen': True}
+0x5227f603 PAXG {'fn': 'isFrozen(address)', 'frozen': True}
+0x5227f603 USD1 {'fn': 'frozen(address)', 'frozen': True}
+0x5227f603 FDUSD {'fn': 'frozen(address)', 'frozen': True}
+0x5227f603 RLUSD no-known-getter
+0x5227f603 WBETH {'fn': 'isBlacklisted(address)', 'frozen': False}
+0x5227f603 WLFI {'fn': 'isBlacklisted(address)', 'frozen': True}
+0x5227f603 USDT {'fn': 'isBlackListed(address)', 'frozen': True}
+0x5227f603 USDC {'fn': 'isBlacklisted(address)', 'frozen': True}
+0x7f9DC988 XAUT {'fn': 'isBlocked(address)', 'frozen': False}
+0x7f9DC988 PAXG {'fn': 'isFrozen(address)', 'frozen': False}
+0x7f9DC988 USD1 {'fn': 'frozen(address)', 'frozen': False}
+0x7f9DC988 FDUSD {'fn': 'frozen(address)', 'frozen': False}
+0x7f9DC988 RLUSD no-known-getter
+0x7f9DC988 WBETH {'fn': 'isBlacklisted(address)', 'frozen': True}
+0x7f9DC988 WLFI {'fn': 'isBlacklisted(address)', 'frozen': False}
+0x7f9DC988 USDT {'fn': 'isBlackListed(address)', 'frozen': False}
+0x7f9DC988 USDC {'fn': 'isBlacklisted(address)', 'frozen': False}
+0xE7024aB8 XAUT {'fn': 'isBlocked(address)', 'frozen': False}
+0xE7024aB8 PAXG {'fn': 'isFrozen(address)', 'frozen': False}
+0xE7024aB8 USD1 {'fn': 'frozen(address)', 'frozen': False}
+0xE7024aB8 FDUSD {'fn': 'frozen(address)', 'frozen': True}
+0xE7024aB8 RLUSD no-known-getter
+0xE7024aB8 WBETH {'fn': 'isBlacklisted(address)', 'frozen': False}
+0xE7024aB8 WLFI {'fn': 'isBlacklisted(address)', 'frozen': False}
+0xE7024aB8 USDT {'fn': 'isBlackListed(address)', 'frozen': False}
+0xE7024aB8 USDC {'fn': 'isBlacklisted(address)', 'frozen': False}
+0x28C6c062 XAUT {'fn': 'isBlocked(address)', 'frozen': False}
+0x28C6c062 PAXG {'fn': 'isFrozen(address)', 'frozen': False}
+0x28C6c062 USD1 {'fn': 'frozen(address)', 'frozen': True}
+0x28C6c062 FDUSD {'fn': 'frozen(address)', 'frozen': True}
+0x28C6c062 RLUSD no-known-getter
+0x28C6c062 WBETH {'fn': 'isBlacklisted(address)', 'frozen': False}
+0x28C6c062 WLFI {'fn': 'isBlacklisted(address)', 'frozen': True}
+0x28C6c062 USDT {'fn': 'isBlackListed(address)', 'frozen': True}
+0x28C6c062 USDC {'fn': 'isBlacklisted(address)', 'frozen': True}

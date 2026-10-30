@@ -1,0 +1,1429 @@
+{
+ "info": {
+  "0xdd6dbbe67262ccc9b1824de1257999efc6c52296": {
+   "address": "0xdd6dbbe67262ccc9b1824de1257999efc6c52296",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.5000103999,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xb58bf76d209fa71f60013ce1933ca331177a4f08": {
+   "address": "0xb58bf76d209fa71f60013ce1933ca331177a4f08",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 9.01791266545e-05,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xdd6de43a3a1a1575380a0e6d6bb3c2ba1ea22296": {
+   "address": "0xdd6de43a3a1a1575380a0e6d6bb3c2ba1ea22296",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x3e2bf1ac6bf0934bbba6456c341c2ecbced632d5": {
+   "address": "0x3e2bf1ac6bf0934bbba6456c341c2ecbced632d5",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.003780117940939571,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x0ddf2795c768e21415fe758f7962a6cbf111697e": {
+   "address": "0x0ddf2795c768e21415fe758f7962a6cbf111697e",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x0ddf0480016e6bcb2c1f5d190d221fba1320697e": {
+   "address": "0x0ddf0480016e6bcb2c1f5d190d221fba1320697e",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.06192792453046295,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xcf4c3997e2729c6ec97af40f4e5493f1200323e0": {
+   "address": "0xcf4c3997e2729c6ec97af40f4e5493f1200323e0",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x129118585d9c096cec8f239c319f57a55eb616b1": {
+   "address": "0x129118585d9c096cec8f239c319f57a55eb616b1",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xf1eadb247ffc7d7d6600e84daaf9ee85737e73c4": {
+   "address": "0xf1eadb247ffc7d7d6600e84daaf9ee85737e73c4",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0724045725597205,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x7f9ddeb7598cec546faefb88243e59711ffe15e3": {
+   "address": "0x7f9ddeb7598cec546faefb88243e59711ffe15e3",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x42cdf00c85005630cc8605731b9364f712077810": {
+   "address": "0x42cdf00c85005630cc8605731b9364f712077810",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.005958453671860418,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x06ea1ab3ecf570029eb1f94dbb9eac06bc79685f": {
+   "address": "0x06ea1ab3ecf570029eb1f94dbb9eac06bc79685f",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.000884741729838529,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x8c7111e9a3270457b76f0bd137209089047a6aa4": {
+   "address": "0x8c7111e9a3270457b76f0bd137209089047a6aa4",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.006471215157707628,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x5c23023ca6633f91ded909b4a753a3ca00fea4fc": {
+   "address": "0x5c23023ca6633f91ded909b4a753a3ca00fea4fc",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.001028324987571,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x85324f2672a1ddcf646b4e2c2d57fe5e483e43d4": {
+   "address": "0x85324f2672a1ddcf646b4e2c2d57fe5e483e43d4",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xb3ddec0ccc5c3ba733fcdf5a15f98c95ec5a5fdb": {
+   "address": "0xb3ddec0ccc5c3ba733fcdf5a15f98c95ec5a5fdb",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.000512850145454639,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x8532fa14acaf483729c449b8458aeddb900543d4": {
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 197460.00485933767,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x0084847bb9384d2fc5e8836e663689467e3e4c81": {
+   "address": "0x0084847bb9384d2fc5e8836e663689467e3e4c81",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.04896802611324735,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xcf4ca2bdf21bc3a467a00b6afe72b833982723e0": {
+   "address": "0xcf4ca2bdf21bc3a467a00b6afe72b833982723e0",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.000217274190893026,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x06ea3cb450fef3e35dd5675b850ff03313bc685f": {
+   "address": "0x06ea3cb450fef3e35dd5675b850ff03313bc685f",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x600d6f00eadabdb514561ceeb43730a7103e8298": {
+   "address": "0x600d6f00eadabdb514561ceeb43730a7103e8298",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.000641115812562963,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x3e2b3110f0c54717cdbe5dcf78404a9b8e2b32d5": {
+   "address": "0x3e2b3110f0c54717cdbe5dcf78404a9b8e2b32d5",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x9749292d74fd460982d0912ea9515ea24736c762": {
+   "address": "0x9749292d74fd460982d0912ea9515ea24736c762",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.000689307913670759,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x7f9dc988b46336ad536828fad50fa8fa1e5415e3": {
+   "address": "0x7f9dc988b46336ad536828fad50fa8fa1e5415e3",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.6213043679270136,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x9749110a86941480dbefca1efdc0ceb528a0c762": {
+   "address": "0x9749110a86941480dbefca1efdc0ceb528a0c762",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x5c234c1bbc39dbf8a2bfca812dbb4a2d3fdda4fc": {
+   "address": "0x5c234c1bbc39dbf8a2bfca812dbb4a2d3fdda4fc",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x1291be4c90239d14527ba880ad2b6e5cb82116b1": {
+   "address": "0x1291be4c90239d14527ba880ad2b6e5cb82116b1",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.005110562183660844,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x03b0ee5d82990cff1bda48651ac3e436d1a020ea": {
+   "address": "0x03b0ee5d82990cff1bda48651ac3e436d1a020ea",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 17260.100000000002,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x0000000000000000000000000000000000000000": {
+   "address": "0x0000000000000000000000000000000000000000",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 14156.626943624617,
+   "eth_rate": 2241.01,
+   "tx_count": 1001,
+   "transfers_count": 11078310
+  },
+  "0xe7024ab80143b1ef843efe6a58368696cb87958d": {
+   "address": "0xe7024ab80143b1ef843efe6a58368696cb87958d",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.01621377236345544,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xb3ddc0c26d87655452a86cd7b4dd90d084065fdb": {
+   "address": "0xb3ddc0c26d87655452a86cd7b4dd90d084065fdb",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xe3478b0bb1a5084567c319096437924948be1964": {
+   "address": "0xe3478b0bb1a5084567c319096437924948be1964",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.08503008666875037,
+   "eth_rate": 2241.01,
+   "tx_count": 161281,
+   "transfers_count": 1778609
+  },
+  "0x77ed4fae0842c13fb0dd311d43a449a9f66ec3eb": {
+   "address": "0x77ed4fae0842c13fb0dd311d43a449a9f66ec3eb",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x77e80a79110e562cdea03d3d45ed40f0262ac3eb": {
+   "address": "0x77e80a79110e562cdea03d3d45ed40f0262ac3eb",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x7aa4fed8e29d54ac956786f679e84b765c37bfd1": {
+   "address": "0x7aa4fed8e29d54ac956786f679e84b765c37bfd1",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xccbe85874b8621c9d81a79ea792e3e865ed7a263": {
+   "address": "0xccbe85874b8621c9d81a79ea792e3e865ed7a263",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xccbef95633adb5cd2b5038db5a38d77e726ca263": {
+   "address": "0xccbef95633adb5cd2b5038db5a38d77e726ca263",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.02901659363552848,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xb171ca86f82070282138352ff7111b494060c8c3": {
+   "address": "0xb171ca86f82070282138352ff7111b494060c8c3",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.002802994628449654,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xb171e34b3078cf3db8dfb5ef261b1a4472c2c8c3": {
+   "address": "0xb171e34b3078cf3db8dfb5ef261b1a4472c2c8c3",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x897c80d1a9729e94460e2bd93178bd5215158df3": {
+   "address": "0x897c80d1a9729e94460e2bd93178bd5215158df3",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 78415.25130735844,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x8d53f50a1772d0683b86c052d9a1e118ed7a639a": {
+   "address": "0x8d53f50a1772d0683b86c052d9a1e118ed7a639a",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x79e727f1cc398fe913de5ecb9a075acb51bf544a": {
+   "address": "0x79e727f1cc398fe913de5ecb9a075acb51bf544a",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xc8875596a587070f0cb31bdafeae0b326d51286a": {
+   "address": "0xc8875596a587070f0cb31bdafeae0b326d51286a",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xc887af690e0301cd4edbbce8f8d31b4ec65b286a": {
+   "address": "0xc887af690e0301cd4edbbce8f8d31b4ec65b286a",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 137602.00153931856,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xc88770490eacead36f6c0a19d1833ac29123286a": {
+   "address": "0xc88770490eacead36f6c0a19d1833ac29123286a",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 1.82903174719e-07,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x54405f74334d7e52771e513c5145e0d8688fc942": {
+   "address": "0x54405f74334d7e52771e513c5145e0d8688fc942",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x54401f80da97893a15d43566184635b6674bc942": {
+   "address": "0x54401f80da97893a15d43566184635b6674bc942",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 32953.57179808656,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x811fbc8a4959cedee16875585fc17d5e6c76e84c": {
+   "address": "0x811fbc8a4959cedee16875585fc17d5e6c76e84c",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x470b3f37e4afabbb0cbf02024b171da89fa5f0a4": {
+   "address": "0x470b3f37e4afabbb0cbf02024b171da89fa5f0a4",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.002687297413962,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x811f15855476156ebf86ba3b84fafb8ceaa4e84c": {
+   "address": "0x811f15855476156ebf86ba3b84fafb8ceaa4e84c",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.001422485427928,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x470b8cf5a0735f5fe98a089afe7a56c3756cf0a4": {
+   "address": "0x470b8cf5a0735f5fe98a089afe7a56c3756cf0a4",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xaa24672fa1aa97dedb7bf82a330c3b950fdb54a0": {
+   "address": "0xaa24672fa1aa97dedb7bf82a330c3b950fdb54a0",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x7dcb3f757be4cbc24d69dd897890c13beb1977e2": {
+   "address": "0x7dcb3f757be4cbc24d69dd897890c13beb1977e2",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xb196c81f5b4e59879e8133e767d34bba180e192e": {
+   "address": "0xb196c81f5b4e59879e8133e767d34bba180e192e",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x7dcb564ae3ab5f25fda877882a4739e597a377e2": {
+   "address": "0x7dcb564ae3ab5f25fda877882a4739e597a377e2",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 61.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xe5cec77934a9aa7a5c63692965a1f07ab933ad29": {
+   "address": "0xe5cec77934a9aa7a5c63692965a1f07ab933ad29",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 259.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xc9cd1054d89d6faf75b22f0bd0c0fef44a274c7c": {
+   "address": "0xc9cd1054d89d6faf75b22f0bd0c0fef44a274c7c",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 30.55,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xe5ce5a18d53902d89b8cfe3b3252722ce51a1d29": {
+   "address": "0xe5ce5a18d53902d89b8cfe3b3252722ce51a1d29",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 4.91346561913e-07,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x181a9d83f78e38c573c824088879da346cc3e08e": {
+   "address": "0x181a9d83f78e38c573c824088879da346cc3e08e",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 33.13,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xd51fca94212e644b4a01f4a5bcf64ac61b5579b4": {
+   "address": "0xd51fca94212e644b4a01f4a5bcf64ac61b5579b4",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.012856822072534052,
+   "eth_rate": 2239.25,
+   "tx_count": 14,
+   "transfers_count": 34
+  },
+  "0x5f359230e6f7a3c45082da3cd79228a95f9508c1": {
+   "address": "0x5f359230e6f7a3c45082da3cd79228a95f9508c1",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xe55d859a85cdf2f0109d0bfb138a834fe80b787a": {
+   "address": "0xe55d859a85cdf2f0109d0bfb138a834fe80b787a",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 4.58533156675e-07,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x4784c6f0ac85643eb742153fa346eefa1ad1c096": {
+   "address": "0x4784c6f0ac85643eb742153fa346eefa1ad1c096",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 15.8,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x5f35678d1618c8ff902272111fc88384952048c1": {
+   "address": "0x5f35678d1618c8ff902272111fc88384952048c1",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 13.6,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x478445c6d493b8263b7a1cd64ae433bc3d61c096": {
+   "address": "0x478445c6d493b8263b7a1cd64ae433bc3d61c096",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x478491b2f5fe1e479b4bece67eeae669e420c096": {
+   "address": "0x478491b2f5fe1e479b4bece67eeae669e420c096",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xb09b06ab47ec6c5100216db674c10e23e1a47c62": {
+   "address": "0xb09b06ab47ec6c5100216db674c10e23e1a47c62",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xe55ea8b948d5225495fc08f9f11d0e7ebd62787a": {
+   "address": "0xe55ea8b948d5225495fc08f9f11d0e7ebd62787a",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xb09b0daba8fa67e077390199e6745bd57caf7c62": {
+   "address": "0xb09b0daba8fa67e077390199e6745bd57caf7c62",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 18.5,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xe55d10dfef2f7f71e130944821d003693e62787a": {
+   "address": "0xe55d10dfef2f7f71e130944821d003693e62787a",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 23.51,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x5440245a0729662e7d882d3f06de97acd151c942": {
+   "address": "0x5440245a0729662e7d882d3f06de97acd151c942",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 1.1818632579779e-05,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x008402c37bf16fee3444df581b05af8e25384c81": {
+   "address": "0x008402c37bf16fee3444df581b05af8e25384c81",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 3.56266165593e-07,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x5440190bf1b577832247cfdcddd18b351e08c942": {
+   "address": "0x5440190bf1b577832247cfdcddd18b351e08c942",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.000169586193617274,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x8d4b8d1ce156b5815a2afd9b1cf9b52212689e19": {
+   "address": "0x8d4b8d1ce156b5815a2afd9b1cf9b52212689e19",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 6.546771378438e-06,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x008f06f04b72da2621a4f37f5531cc7352187dcd": {
+   "address": "0x008f06f04b72da2621a4f37f5531cc7352187dcd",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.000723474538794,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x008f3fb9ca4be57ce01d34212eefe806ef687dcd": {
+   "address": "0x008f3fb9ca4be57ce01d34212eefe806ef687dcd",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x79e77735a5c56f3da896b3cc3aed4b8d8be0544a": {
+   "address": "0x79e77735a5c56f3da896b3cc3aed4b8d8be0544a",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 7.12650404627e-07,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x70ec6a2e91a9f8d11c29866c75e0724d5a665085": {
+   "address": "0x70ec6a2e91a9f8d11c29866c75e0724d5a665085",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 6
+  },
+  "0x70ec644699b827bd482779916c99bf3dd7c75085": {
+   "address": "0x70ec644699b827bd482779916c99bf3dd7c75085",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.0,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x7c8601d4645b93cea45f71e118a729332e6b5ca0": {
+   "address": "0x7c8601d4645b93cea45f71e118a729332e6b5ca0",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 1.1744243675513357,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c": {
+   "address": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 3.1717705454109986,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xaa246bf639586a6ba46762d378ce50ca4fc654a0": {
+   "address": "0xaa246bf639586a6ba46762d378ce50ca4fc654a0",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.001094865305970259,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x79e70d139fc05aa75f75611fdf2680e9952b544a": {
+   "address": "0x79e70d139fc05aa75f75611fdf2680e9952b544a",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 34279.685091,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x8d4b8ee62124b7ee140a51ddd07390a56f1c9e19": {
+   "address": "0x8d4b8ee62124b7ee140a51ddd07390a56f1c9e19",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 2962.2974084888956,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a": {
+   "address": "0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.09881275803154767,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x77edef23fbd05921c26fe29fcc3a65e14d2ac3eb": {
+   "address": "0x77edef23fbd05921c26fe29fcc3a65e14d2ac3eb",
+   "is_contract": true,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.013987766455278772,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x7aa4d3029e4c6a8e916300014ad95b6d6c03bfd1": {
+   "address": "0x7aa4d3029e4c6a8e916300014ad95b6d6c03bfd1",
+   "is_contract": true,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.04404789647408336,
+   "eth_rate": 2241.01,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x0e772ee615c7f93373c7519f2c36e780696477d3": {
+   "address": "0x0e772ee615c7f93373c7519f2c36e780696477d3",
+   "is_contract": true,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.27605804906924325,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0x15104a9ce0f08a8f0075a0869ae80e795fe0feb7": {
+   "address": "0x15104a9ce0f08a8f0075a0869ae80e795fe0feb7",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 43.559870889921555,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  },
+  "0xcd684d22e8c3600e6ee93b5a57923c3b517f3396": {
+   "address": "0xcd684d22e8c3600e6ee93b5a57923c3b517f3396",
+   "is_contract": false,
+   "name": null,
+   "tags": [],
+   "coin_balance": 0.013094821469975435,
+   "eth_rate": 2239.25,
+   "tx_count": 0,
+   "transfers_count": 0
+  }
+ },
+ "visited": {
+  "0x7c8601d4645b93cea45f71e118a729332e6b5ca0": 0,
+  "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c": 0,
+  "0x8532fa14acaf483729c449b8458aeddb900543d4": 0,
+  "0xaa246bf639586a6ba46762d378ce50ca4fc654a0": 0,
+  "0x79e70d139fc05aa75f75611fdf2680e9952b544a": 0,
+  "0x8d4b8ee62124b7ee140a51ddd07390a56f1c9e19": 0,
+  "0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a": 0,
+  "0x77edef23fbd05921c26fe29fcc3a65e14d2ac3eb": 0,
+  "0x7aa4d3029e4c6a8e916300014ad95b6d6c03bfd1": 0,
+  "0xccbef95633adb5cd2b5038db5a38d77e726ca263": 0,
+  "0xb171ca86f82070282138352ff7111b494060c8c3": 0,
+  "0x3e2bf1ac6bf0934bbba6456c341c2ecbced632d5": 0,
+  "0x0ddf0480016e6bcb2c1f5d190d221fba1320697e": 0,
+  "0x897c80d1a9729e94460e2bd93178bd5215158df3": 0,
+  "0x600d6f00eadabdb514561ceeb43730a7103e8298": 0,
+  "0x0e772ee615c7f93373c7519f2c36e780696477d3": 0,
+  "0x7f9dc988b46336ad536828fad50fa8fa1e5415e3": 0,
+  "0x42cdf00c85005630cc8605731b9364f712077810": 0,
+  "0xe7024ab80143b1ef843efe6a58368696cb87958d": 0,
+  "0x54401f80da97893a15d43566184635b6674bc942": 0,
+  "0x9749292d74fd460982d0912ea9515ea24736c762": 0,
+  "0xc887af690e0301cd4edbbce8f8d31b4ec65b286a": 0,
+  "0x15104a9ce0f08a8f0075a0869ae80e795fe0feb7": 0,
+  "0xcd684d22e8c3600e6ee93b5a57923c3b517f3396": 0,
+  "0xdd6dbbe67262ccc9b1824de1257999efc6c52296": 1,
+  "0xb58bf76d209fa71f60013ce1933ca331177a4f08": 1,
+  "0xdd6de43a3a1a1575380a0e6d6bb3c2ba1ea22296": 1,
+  "0x0ddf2795c768e21415fe758f7962a6cbf111697e": 1,
+  "0xcf4c3997e2729c6ec97af40f4e5493f1200323e0": 1,
+  "0x129118585d9c096cec8f239c319f57a55eb616b1": 1,
+  "0xf1eadb247ffc7d7d6600e84daaf9ee85737e73c4": 1,
+  "0x7f9ddeb7598cec546faefb88243e59711ffe15e3": 1,
+  "0x06ea1ab3ecf570029eb1f94dbb9eac06bc79685f": 1,
+  "0x8c7111e9a3270457b76f0bd137209089047a6aa4": 1,
+  "0x5c23023ca6633f91ded909b4a753a3ca00fea4fc": 1,
+  "0x85324f2672a1ddcf646b4e2c2d57fe5e483e43d4": 1,
+  "0xb3ddec0ccc5c3ba733fcdf5a15f98c95ec5a5fdb": 1,
+  "0x0084847bb9384d2fc5e8836e663689467e3e4c81": 1,
+  "0xcf4ca2bdf21bc3a467a00b6afe72b833982723e0": 1,
+  "0x06ea3cb450fef3e35dd5675b850ff03313bc685f": 1,
+  "0x3e2b3110f0c54717cdbe5dcf78404a9b8e2b32d5": 1,
+  "0x9749110a86941480dbefca1efdc0ceb528a0c762": 1,
+  "0x5c234c1bbc39dbf8a2bfca812dbb4a2d3fdda4fc": 1,
+  "0x1291be4c90239d14527ba880ad2b6e5cb82116b1": 1,
+  "0x03b0ee5d82990cff1bda48651ac3e436d1a020ea": 1,
+  "0xb3ddc0c26d87655452a86cd7b4dd90d084065fdb": 1,
+  "0x77ed4fae0842c13fb0dd311d43a449a9f66ec3eb": 1,
+  "0x77e80a79110e562cdea03d3d45ed40f0262ac3eb": 1,
+  "0x7aa4fed8e29d54ac956786f679e84b765c37bfd1": 1,
+  "0xccbe85874b8621c9d81a79ea792e3e865ed7a263": 1,
+  "0xb171e34b3078cf3db8dfb5ef261b1a4472c2c8c3": 1,
+  "0x8d53f50a1772d0683b86c052d9a1e118ed7a639a": 1,
+  "0x79e727f1cc398fe913de5ecb9a075acb51bf544a": 1,
+  "0xc8875596a587070f0cb31bdafeae0b326d51286a": 1,
+  "0xc88770490eacead36f6c0a19d1833ac29123286a": 1,
+  "0x54405f74334d7e52771e513c5145e0d8688fc942": 1,
+  "0x811fbc8a4959cedee16875585fc17d5e6c76e84c": 1,
+  "0x470b3f37e4afabbb0cbf02024b171da89fa5f0a4": 1,
+  "0x811f15855476156ebf86ba3b84fafb8ceaa4e84c": 1,
+  "0x470b8cf5a0735f5fe98a089afe7a56c3756cf0a4": 1,
+  "0xaa24672fa1aa97dedb7bf82a330c3b950fdb54a0": 1,
+  "0x7dcb3f757be4cbc24d69dd897890c13beb1977e2": 1,
+  "0xb196c81f5b4e59879e8133e767d34bba180e192e": 1,
+  "0x7dcb564ae3ab5f25fda877882a4739e597a377e2": 1,
+  "0xe5cec77934a9aa7a5c63692965a1f07ab933ad29": 1,
+  "0xc9cd1054d89d6faf75b22f0bd0c0fef44a274c7c": 1,
+  "0xe5ce5a18d53902d89b8cfe3b3252722ce51a1d29": 1,
+  "0x181a9d83f78e38c573c824088879da346cc3e08e": 1,
+  "0xd51fca94212e644b4a01f4a5bcf64ac61b5579b4": 1,
+  "0x5f359230e6f7a3c45082da3cd79228a95f9508c1": 1,
+  "0xe55d859a85cdf2f0109d0bfb138a834fe80b787a": 1,
+  "0x4784c6f0ac85643eb742153fa346eefa1ad1c096": 1,
+  "0x5f35678d1618c8ff902272111fc88384952048c1": 1,
+  "0x478445c6d493b8263b7a1cd64ae433bc3d61c096": 1,
+  "0x478491b2f5fe1e479b4bece67eeae669e420c096": 1,
+  "0xb09b06ab47ec6c5100216db674c10e23e1a47c62": 1,
+  "0xe55ea8b948d5225495fc08f9f11d0e7ebd62787a": 1,
+  "0xb09b0daba8fa67e077390199e6745bd57caf7c62": 1,
+  "0xe55d10dfef2f7f71e130944821d003693e62787a": 1,
+  "0x5440245a0729662e7d882d3f06de97acd151c942": 2,
+  "0x008402c37bf16fee3444df581b05af8e25384c81": 2,
+  "0x5440190bf1b577832247cfdcddd18b351e08c942": 2,
+  "0x8d4b8d1ce156b5815a2afd9b1cf9b52212689e19": 2,
+  "0x008f06f04b72da2621a4f37f5531cc7352187dcd": 2,
+  "0x008f3fb9ca4be57ce01d34212eefe806ef687dcd": 2,
+  "0x79e77735a5c56f3da896b3cc3aed4b8d8be0544a": 2,
+  "0x70ec6a2e91a9f8d11c29866c75e0724d5a665085": 2,
+  "0x70ec644699b827bd482779916c99bf3dd7c75085": 2
+ },
+ "balances": {
+  "0x7c8601d4645b93cea45f71e118a729332e6b5ca0": [
+   {
+    "symbol": "NETIZEN",
+    "token": "0x77ac255544D60B83F74e8Eb4B4E3b8EEc62bf8cE",
+    "amount": 99999.0,
+    "rate": 0.0
+   }
+  ],
+  "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c": [
+   {
+    "symbol": "USDT",
+    "token": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "amount": 1175464712.875462,
+    "rate": 0.998328
+   },
+   {
+    "symbol": "USDC",
+    "token": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "amount": 823000000.0,
+    "rate": 0.99916
+   },
+   {
+    "symbol": "XAUT",
+    "token": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+    "amount": 12574.046797,
+    "rate": 3988.53
+   },
+   {
+    "symbol": "USD1",
+    "token": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d",
+    "amount": 27824039.936896473,
+    "rate": 0.997776
+   },
+   {
+    "symbol": "PAXG",
+    "token": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+    "amount": 1906.6677286912252,
+    "rate": 3996.63
+   },
+   {
+    "symbol": "ZAMA",
+    "token": "0xA12CC123ba206d4031D1c7f6223D1C2Ec249f4f3",
+    "amount": 53329985.142895795,
+    "rate": 0.06644
+   },
+   {
+    "symbol": "FDUSD",
+    "token": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409",
+    "amount": 3454894.9230800183,
+    "rate": 0.995988
+   },
+   {
+    "symbol": "ERA",
+    "token": "0xE2AD0BF751834f2fbdC62A41014f84d67cA1de2A",
+    "amount": 38603848.93521382,
+    "rate": 0.069545
+   },
+   {
+    "symbol": "SOPH",
+    "token": "0x6B7774CB12ed7573a7586E7D0e62a2A563dDd3f0",
+    "amount": 1693247180.546698,
+    "rate": 0.0015355
+   },
+   {
+    "symbol": "WLFI",
+    "token": "0xdA5e1988097297dCdc1f90D4dFE7909e847CBeF6",
+    "amount": 48525612.00768024,
+    "rate": 0.051691
+   },
+   {
+    "symbol": "NIL",
+    "token": "0x7Cf9a80db3B29eE8efE3710AadB7b95270572d47",
+    "amount": 32825145.809786,
+    "rate": 0.070897
+   },
+   {
+    "symbol": "LSK",
+    "token": "0x6033F7f88332B8db6ad452B7C6D5bB643990aE3f",
+    "amount": 9258136.282411374,
+    "rate": 0.177342
+   },
+   {
+    "symbol": "LA",
+    "token": "0x0fc2a55d5BD13033f1ee0cdd11f60F7eFe66f467",
+    "amount": 27959136.7022497,
+    "rate": 0.052582
+   },
+   {
+    "symbol": "RE",
+    "token": "0x526526528F35AC738177003b8773B402B8Df8143",
+    "amount": 3621588.7245250936,
+    "rate": 0.351586
+   },
+   {
+    "symbol": "RLUSD",
+    "token": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+    "amount": 0.47979704496901554,
+    "rate": 0.999217
+   },
+   {
+    "symbol": "PROM",
+    "token": "0xfc82bb4ba86045Af6F327323a46E80412b91b27d",
+    "amount": 0.008175117742273585,
+    "rate": 5.53
+   },
+   {
+    "symbol": "ZRO",
+    "token": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+    "amount": 0.002981804936636057,
+    "rate": 1.66
+   },
+   {
+    "symbol": "MORPHO",
+    "token": "0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
+    "amount": 0.002239729673844021,
+    "rate": 2.01
+   },
+   {
+    "symbol": "ONDO",
+    "token": "0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3",
+    "amount": 0.009222511571157103,
+    "rate": 0.392165
+   },
+   {
+    "symbol": "USDE",
+    "token": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "amount": 0.003204598785601727,
+    "rate": 0.997266
+   },
+   {
+    "symbol": "WLD",
+    "token": "0x163f8C2467924be0ae7B5347228CABF260318753",
+    "amount": 0.002723827497623979,
+    "rate": 0.391278
+   },
+   {
+    "symbol": "FUN",
+    "token": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
+    "amount": 0.00837754,
+    "rate": 0.00338906
+   },
+   {
+    "symbol": "RSR",
+    "token": "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+    "amount": 0.004631394736317301,
+    "rate": 0.00128738
+   }
+  ],
+  "0x8532fa14acaf483729c449b8458aeddb900543d4": [
+   {
+    "symbol": "BTE",
+    "token": "0x51dD8687ecc330E337e62acBf931DC251802FFFF",
+    "amount": 21000.0,
+    "rate": 0.00412524
+   },
+   {
+    "symbol": "USDC",
+    "token": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "amount": 0.432644,
+    "rate": 0.99916
+   }
+  ],
+  "0xaa246bf639586a6ba46762d378ce50ca4fc654a0": [
+   {
+    "symbol": "USDT",
+    "token": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "amount": 174999872.32762,
+    "rate": 0.998328
+   },
+   {
+    "symbol": "\u89e3\u51bbTG:jdusdt01",
+    "token": "0x93eD159C84f0e295c9562240Fc9d75196c351529",
+    "amount": 888.0,
+    "rate": 0.0
+   }
+  ],
+  "0x79e70d139fc05aa75f75611fdf2680e9952b544a": [
+   {
+    "symbol": "AIB",
+    "token": "0xB3A0F70c913Aa04404BD177BE9E20B47613830B6",
+    "amount": 10000.0,
+    "rate": 0.00027077
+   }
+  ],
+  "0x8d4b8ee62124b7ee140a51ddd07390a56f1c9e19": [],
+  "0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a": [
+   {
+    "symbol": "AUSDT",
+    "token": "0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a",
+    "amount": 60003430.108467,
+    "rate": 0.998889
+   },
+   {
+    "symbol": "USDT",
+    "token": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "amount": 0.0001,
+    "rate": 0.998328
+   },
+   {
+    "symbol": "variableDebtEthWETH",
+    "token": "0xeA51d7853EEFb32b6ee06b1C12E6dcCA88Be0fFE",
+    "amount": 19762.818026127356,
+    "rate": 0.0
+   }
+  ],
+  "0x77edef23fbd05921c26fe29fcc3a65e14d2ac3eb": [
+   {
+    "symbol": "USDT",
+    "token": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "amount": 0.0001,
+    "rate": 0.998328
+   }
+  ],
+  "0x7aa4d3029e4c6a8e916300014ad95b6d6c03bfd1": [
+   {
+    "symbol": "USDT",
+    "token": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "amount": 0.0001,
+    "rate": 0.998328
+   }
+  ],
+  "0xccbef95633adb5cd2b5038db5a38d77e726ca263": [
+   {
+    "symbol": "USDT",
+    "token": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "amount": 0.0001,
+    "rate": 0.998328
+   }
+  ],
+  "0xb171ca86f82070282138352ff7111b494060c8c3": [
+   {
+    "symbol": "USDT",
+    "token": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "amount": 30000000.0,
+    "rate": 0.998328
+   },
+   {
+    "symbol": "\u89e3\u51bbTG:jdusdt01",
+    "token": "0x93eD159C84f0e295c9562240Fc9d75196c351529",
+    "amount": 888.0,
+    "rate": 0.0
+   }
+  ],
+  "0x3e2bf1ac6bf0934bbba6456c341c2ecbced632d5": [],
+  "0x0ddf0480016e6bcb2c1f5d190d221fba1320697e": [
+   {
+    "symbol": "USDT",
+    "token": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "amount": 0.0001,
+    "rate": 0.998328
+   }
+  ],
+  "0x897c80d1a9729e94460e2bd93178bd5215158df3": [],
+  "0x600d6f00eadabdb514561ceeb43730a7103e8298": [
+   {
+    "symbol": "AIB",
+    "token": "0xB3A0F70c913Aa04404BD177BE9E20B47613830B6",
+    "amount": 110000.0,
+    "rate": 0.00027077
+   },
+   {
+    "symbol": "MOG",
+    "token": "0xaaeE1A9723aaDB7afA2810263653A34bA2C21C7a",
+    "amount": 238832015.08201557,
+    "rate": 9.5305e-08
+   },
+   {
+    "symbol": "ASTEROID",
+    "token": "0xAFF2565091E7207191dBe340B8528D02FA78d044",
+    "amount": 13478.383575465332,
+    "rate": 0.00121292
+   },
+   {
+    "symbol": "PEPE",
+    "token": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+    "amount": 218340.61135371178,
+    "rate": 4.96e-06
+   },
+   {
+    "symbol": "WOJAK",
+    "token": "0x8De39B057CC6522230AB19C0205080a8663331Ef",
+    "amount": 69.0,
+    "rate": 4.079e-08
+   },
+   {
+    "symbol": "SELLPEPE",
+    "token": "0x430792cb87e397d29f9306E0457Bd01c7e12e817",
+    "amount": 100000.0,
+    "rate": 0.0
+   }
+  ],
+  "0x0e772ee615c7f93373c7519f2c36e780696477d3": [
+   {
+    "symbol": "USDC",
+    "token": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "amount": 0.000195,
+    "rate": 0.99916
+   }
+  ],
+  "0x7f9dc988b46336ad536828fad50fa8fa1e5415e3": [
+   {
+    "symbol": "WBETH",
+    "token": "0xa2E3356610840701BDf5611a53974510Ae27E2e1",
+    "amount": 29934.01316314602,
+    "rate": 2485.04
+   }
+  ],
+  "0x42cdf00c85005630cc8605731b9364f712077810": [],
+  "0xe7024ab80143b1ef843efe6a58368696cb87958d": [
+   {
+    "symbol": "RLUSD",
+    "token": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+    "amount": 40541065.0,
+    "rate": 0.999217
+   },
+   {
+    "symbol": "AAVE",
+    "token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "amount": 6.886e-15,
+    "rate": 124.42
+   }
+  ],
+  "0x54401f80da97893a15d43566184635b6674bc942": [],
+  "0x9749292d74fd460982d0912ea9515ea24736c762": [
+   {
+    "symbol": "USDT",
+    "token": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "amount": 0.0001,
+    "rate": 0.998328
+   }
+  ],
+  "0xc887af690e0301cd4edbbce8f8d31b4ec65b286a": [],
+  "0x15104a9ce0f08a8f0075a0869ae80e795fe0feb7": [],
+  "0xcd684d22e8c3600e6ee93b5a57923c3b517f3396": [],
+  "0xdd6dbbe67262ccc9b1824de1257999efc6c52296": [
+   {
+    "symbol": "PROM",
+    "token": "0xfc82bb4ba86045Af6F327323a46E80412b91b27d",
+    "amount": 911984.82,
+    "rate": 5.53
+   }
+  ],
+  "0xb58bf76d209fa71f60013ce1933ca331177a4f08": [],
+  "0xdd6de43a3a1a1575380a0e6d6bb3c2ba1ea22296": [],
+  "0x0ddf2795c768e21415fe758f7962a6cbf111697e": [],
+  "0xcf4c3997e2729c6ec97af40f4e5493f1200323e0": [],
+  "0x129118585d9c096cec8f239c319f57a55eb616b1": [],
+  "0xf1eadb247ffc7d7d6600e84daaf9ee85737e73c4": [],
+  "0x7f9ddeb7598cec546faefb88243e59711ffe15e3": [],
+  "0x06ea1ab3ecf570029eb1f94dbb9eac06bc79685f": [
+   {
+    "symbol": "FUN",
+    "token": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
+    "amount": 580766087.7511796,
+    "rate": 0.00338906
+   }
+  ],
+  "0x8c7111e9a3270457b76f0bd137209089047a6aa4": [],
+  "0x5c23023ca6633f91ded909b4a753a3ca00fea4fc": [],
+  "0x85324f2672a1ddcf646b4e2c2d57fe5e483e43d4": [],
+  "0xb3ddec0ccc5c3ba733fcdf5a15f98c95ec5a5fdb": [
+   {
+    "symbol": "USDC",
+    "token": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "amount": 33005.117139,
+    "rate": 0.99916
+   }
+  ],
+  "0x0084847bb9384d2fc5e8836e663689467e3e4c81": [],
+  "0xcf4ca2bdf21bc3a467a00b6afe72b833982723e0": [],
+  "0x06ea3cb450fef3e35dd5675b850ff03313bc685f": [],
+  "0x3e2b3110f0c54717cdbe5dcf78404a9b8e2b32d5": [],
+  "0x9749110a86941480dbefca1efdc0ceb528a0c762": [],
+  "0x5c234c1bbc39dbf8a2bfca812dbb4a2d3fdda4fc": [],
+  "0x1291be4c90239d14527ba880ad2b6e5cb82116b1": [],
+  "0x03b0ee5d82990cff1bda48651ac3e436d1a020ea": [],
+  "0xb3ddc0c26d87655452a86cd7b4dd90d084065fdb": [],
+  "0x77ed4fae0842c13fb0dd311d43a449a9f66ec3eb": [],
+  "0x77e80a79110e562cdea03d3d45ed40f0262ac3eb": [],
+  "0x7aa4fed8e29d54ac956786f679e84b765c37bfd1": [],
+  "0xccbe85874b8621c9d81a79ea792e3e865ed7a263": [],
+  "0xb171e34b3078cf3db8dfb5ef261b1a4472c2c8c3": [],
+  "0x8d53f50a1772d0683b86c052d9a1e118ed7a639a": [],
+  "0x79e727f1cc398fe913de5ecb9a075acb51bf544a": [],
+  "0xc8875596a587070f0cb31bdafeae0b326d51286a": [],
+  "0xc88770490eacead36f6c0a19d1833ac29123286a": [],
+  "0x54405f74334d7e52771e513c5145e0d8688fc942": [],
+  "0x811fbc8a4959cedee16875585fc17d5e6c76e84c": [],
+  "0x470b3f37e4afabbb0cbf02024b171da89fa5f0a4": [],
+  "0x811f15855476156ebf86ba3b84fafb8ceaa4e84c": [
+   {
+    "symbol": "USDT",
+    "token": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "amount": 0.0001,
+    "rate": 0.998328
+   }
+  ],
+  "0x470b8cf5a0735f5fe98a089afe7a56c3756cf0a4": [],
+  "0xaa24672fa1aa97dedb7bf82a330c3b950fdb54a0": [],
+  "0x7dcb3f757be4cbc24d69dd897890c13beb1977e2": [],
+  "0xb196c81f5b4e59879e8133e767d34bba180e192e": [],
+  "0x7dcb564ae3ab5f25fda877882a4739e597a377e2": [],
+  "0xe5cec77934a9aa7a5c63692965a1f07ab933ad29": [],
+  "0xc9cd1054d89d6faf75b22f0bd0c0fef44a274c7c": [],
+  "0xe5ce5a18d53902d89b8cfe3b3252722ce51a1d29": [],
+  "0x181a9d83f78e38c573c824088879da346cc3e08e": [],
+  "0xd51fca94212e644b4a01f4a5bcf64ac61b5579b4": [],
+  "0x5f359230e6f7a3c45082da3cd79228a95f9508c1": [],
+  "0xe55d859a85cdf2f0109d0bfb138a834fe80b787a": [],
+  "0x4784c6f0ac85643eb742153fa346eefa1ad1c096": [],
+  "0x5f35678d1618c8ff902272111fc88384952048c1": [],
+  "0x478445c6d493b8263b7a1cd64ae433bc3d61c096": [],
+  "0x478491b2f5fe1e479b4bece67eeae669e420c096": [],
+  "0xb09b06ab47ec6c5100216db674c10e23e1a47c62": [],
+  "0xe55ea8b948d5225495fc08f9f11d0e7ebd62787a": [],
+  "0xb09b0daba8fa67e077390199e6745bd57caf7c62": [],
+  "0xe55d10dfef2f7f71e130944821d003693e62787a": [],
+  "0x5440245a0729662e7d882d3f06de97acd151c942": [],
+  "0x008402c37bf16fee3444df581b05af8e25384c81": [],
+  "0x5440190bf1b577832247cfdcddd18b351e08c942": [],
+  "0x8d4b8d1ce156b5815a2afd9b1cf9b52212689e19": [],
+  "0x008f06f04b72da2621a4f37f5531cc7352187dcd": [
+   {
+    "symbol": "RLUSD",
+    "token": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+    "amount": 0.00088541065,
+    "rate": 0.999217
+   }
+  ],
+  "0x008f3fb9ca4be57ce01d34212eefe806ef687dcd": [],
+  "0x79e77735a5c56f3da896b3cc3aed4b8d8be0544a": [],
+  "0x70ec6a2e91a9f8d11c29866c75e0724d5a665085": [],
+  "0x70ec644699b827bd482779916c99bf3dd7c75085": []
+ }
+}

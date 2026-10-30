@@ -1,0 +1,139 @@
+{
+ "0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c": {
+  "arbitrum": {
+   "native": 0.002700852925381786,
+   "nonce": 4,
+   "USDT0": 0.0,
+   "USDC": 0.4343,
+   "ARB": 0.0,
+   "WETH": 0.0
+  },
+  "base": {
+   "native": 0.002445163818520008,
+   "nonce": 0,
+   "USDC": 0.0
+  },
+  "avalanche": {
+   "native": 444536.84368957795,
+   "nonce": 3,
+   "USDT": 8409928.4,
+   "USDC": 0.0
+  },
+  "polygon": {
+   "native": 46626593.49911662,
+   "nonce": 0,
+   "USDT0": 6185900.1,
+   "USDC": 0.0
+  },
+  "bsc": {
+   "native": 0.03147155656017895,
+   "nonce": 0,
+   "USDT": 12.0580025,
+   "USDC": 0.0
+  }
+ },
+ "0x28C6c06298d514Db089934071355E5743bf21d60": {
+  "arbitrum": {
+   "native": 0.19831733146936348,
+   "nonce": 0,
+   "USDT0": 20.640044,
+   "USDC": 37.013599,
+   "ARB": 4.421,
+   "WETH": 0.0
+  },
+  "optimism": {
+   "native": 0.001883155605095481,
+   "nonce": 1,
+   "USDT": 0.15,
+   "USDC": 0.0
+  },
+  "base": {
+   "native": 0.009976650767481596,
+   "nonce": 25,
+   "USDC": 604.382274
+  },
+  "avalanche": {
+   "native": 0.12,
+   "nonce": 0,
+   "USDT": 0.0,
+   "USDC": 0.0
+  },
+  "polygon": {
+   "native": 22.247926785547616,
+   "nonce": 0,
+   "USDT0": 15.783831,
+   "USDC": 50.074767
+  },
+  "bsc": {
+   "native": 3.2968236729402554,
+   "nonce": 42,
+   "USDT": 4281.49350743252,
+   "USDC": 29.83
+  }
+ },
+ "0x897C80d1a9729E94460e2Bd93178bD5215158DF3": {
+  "polygon": {
+   "native": 0.13467,
+   "nonce": 0,
+   "USDT0": 0.0,
+   "USDC": 0.0
+  }
+ },
+ "0x7C8601d4645b93cea45F71e118A729332e6B5CA0": {
+  "bsc": {
+   "native": 1e-15,
+   "nonce": 0,
+   "USDT": 0.0,
+   "USDC": 0.0
+  }
+ },
+ "0x8532FA14ACAf483729C449b8458aedDb900543D4": {
+  "bsc": {
+   "native": 0.000666666666666666,
+   "nonce": 0,
+   "USDT": 0.0,
+   "USDC": 0.0
+  }
+ },
+ "0x03b0ee5d82990cff1bda48651ac3e436d1a020ea": {
+  "bsc": {
+   "native": 3e-05,
+   "nonce": 0,
+   "USDT": 0.0,
+   "USDC": 0.0
+  }
+ },
+ "0x600d6F00eadAbDb514561Ceeb43730a7103e8298": {
+  "bsc": {
+   "native": 0.08178022819825112,
+   "nonce": 0,
+   "USDT": 1.11,
+   "USDC": 0.0
+  }
+ },
+ "0x7f9DC988B46336aD536828fAD50fa8fA1E5415E3": {
+  "bsc": {
+   "native": 1.1e-08,
+   "nonce": 0,
+   "USDT": 1.11,
+   "USDC": 0.0
+  }
+ },
+ "0xE7024aB80143b1EF843EFE6a58368696Cb87958d": {
+  "bsc": {
+   "native": 0.0,
+   "nonce": 0,
+   "USDT": 0.001,
+   "USDC": 0.0
+  }
+ },
+ "0xf1EaDb247ffC7d7D6600E84DaaF9EE85737e73c4": {
+  "bsc": {
+   "native": 1.110001001e-05,
+   "nonce": 0,
+   "USDT": 0.0,
+   "USDC": 0.0
+  }
+ },
+ "_checked_utc": "2026-10-30T06:18:50Z"
+}

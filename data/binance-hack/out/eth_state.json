@@ -1,0 +1,220 @@
+{
+ "0x7C8601d4645b93cea45F71e118A729332e6B5CA0": {
+  "eth": 1.1744243675513357,
+  "nonce": 23,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c": {
+  "eth": 3.1717705454109986,
+  "nonce": 701,
+  "code_len": 0,
+  "usdt": 1175464712.875462,
+  "usdt_blacklisted": true,
+  "usdc": 823000000.0,
+  "usdc_blacklisted": true
+ },
+ "0x8532FA14ACAf483729C449b8458aedDb900543D4": {
+  "eth": 197460.00485933767,
+  "nonce": 0,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 0.432644,
+  "usdc_blacklisted": false
+ },
+ "0xc887aF690E0301CD4edBbCe8F8d31b4EC65B286A": {
+  "eth": 137602.00153931856,
+  "nonce": 0,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0x897C80d1a9729E94460e2Bd93178bD5215158DF3": {
+  "eth": 78415.25130735844,
+  "nonce": 0,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0x79e70d139fC05AA75F75611fDF2680E9952B544A": {
+  "eth": 34279.685091,
+  "nonce": 0,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0x54401f80Da97893a15D43566184635B6674BC942": {
+  "eth": 32953.57179808656,
+  "nonce": 0,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0x03b0ee5d82990cff1bda48651ac3e436d1a020ea": {
+  "eth": 17260.100000000002,
+  "nonce": 0,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0xc2096a12ebe0944f4d39e59979f485afd92d850a": {
+  "eth": 3000.0,
+  "nonce": 0,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0xa97bf7836f8a08f9ed91d41453d371493fae8d10": {
+  "eth": 7391.954089974385,
+  "nonce": 1231,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 123175.527942,
+  "usdc_blacklisted": true
+ },
+ "0xe4f9070e1316de2988fc6f869fead8fb99cc74cd": {
+  "eth": 2.4617441226e-05,
+  "nonce": 2,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0x8d4b8EE62124B7ee140A51dDd07390A56F1c9E19": {
+  "eth": 2962.2974084888956,
+  "nonce": 0,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0xAa246BF639586a6Ba46762D378CE50cA4fc654a0": {
+  "eth": 0.001094865305970328,
+  "nonce": 4,
+  "code_len": 0,
+  "usdt": 174999872.32762,
+  "usdt_blacklisted": true,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0xb171cA86f82070282138352Ff7111b494060c8c3": {
+  "eth": 0.002802994628449654,
+  "nonce": 3,
+  "code_len": 0,
+  "usdt": 30000000.0,
+  "usdt_blacklisted": true,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0x9749292D74Fd460982d0912eA9515EA24736C762": {
+  "eth": 0.000689307913670828,
+  "nonce": 11,
+  "code_len": 0,
+  "usdt": 0.0001,
+  "usdt_blacklisted": true,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0x0Ddf0480016e6bCb2C1F5d190D221FBA1320697e": {
+  "eth": 0.06192792453046301,
+  "nonce": 5,
+  "code_len": 0,
+  "usdt": 0.0001,
+  "usdt_blacklisted": true,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0x8d53903625b8e839b9DF4bd28B0EFb1CD6b8639A": {
+  "eth": 0.09881275803154767,
+  "nonce": 8,
+  "code_len": 0,
+  "usdt": 0.0001,
+  "usdt_blacklisted": true,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0x600d6F00eadAbDb514561Ceeb43730a7103e8298": {
+  "eth": 0.000641115812562963,
+  "nonce": 102,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0x7f9DC988B46336aD536828fAD50fa8fA1E5415E3": {
+  "eth": 0.6213043679270137,
+  "nonce": 22,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0xE7024aB80143b1EF843EFE6a58368696Cb87958d": {
+  "eth": 0.016213772363455507,
+  "nonce": 32,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0x15104a9ce0f08a8f0075a0869ae80e795fe0feb7": {
+  "eth": 0.00806415125330048,
+  "nonce": 9,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0xCd684D22E8C3600E6eE93B5a57923c3b517f3396": {
+  "eth": 0.013094821469975435,
+  "nonce": 4,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "0x28C6c06298d514Db089934071355E5743bf21d60": {
+  "eth": 0.8041250368546807,
+  "nonce": 18915312,
+  "code_len": 0,
+  "usdt": 1351530.007959,
+  "usdt_blacklisted": true,
+  "usdc": 52363.119552,
+  "usdc_blacklisted": true
+ },
+ "0xf1EaDb247ffC7d7D6600E84DaaF9EE85737e73c4": {
+  "eth": 0.0724045725597205,
+  "nonce": 20,
+  "code_len": 0,
+  "usdt": 0.0,
+  "usdt_blacklisted": false,
+  "usdc": 0.0,
+  "usdc_blacklisted": false
+ },
+ "_block": 26303701,
+ "_checked_utc": "2026-10-30T06:13:06Z"
+}

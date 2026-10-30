@@ -1,0 +1,182 @@
+{
+ "bc1q0mtc2f5agpkvlq6hhahmfr3hlr55kyfjhl2mnm": {
+  "address": "bc1q0mtc2f5agpkvlq6hhahmfr3hlr55kyfjhl2mnm",
+  "depth": 0,
+  "balance_btc": 0.0,
+  "tx_count": 17
+ },
+ "bc1qxg0l4p6xc50zuv9cl5f0l0wmaxjpg8wcy7s9ra": {
+  "address": "bc1qxg0l4p6xc50zuv9cl5f0l0wmaxjpg8wcy7s9ra",
+  "depth": 1,
+  "balance_btc": 437.70000454,
+  "tx_count": 3
+ },
+ "bc1qrsrh56k4rpal88w0xpjuul0m78ud62akcwue5e": {
+  "address": "bc1qrsrh56k4rpal88w0xpjuul0m78ud62akcwue5e",
+  "depth": 1,
+  "balance_btc": 0.0,
+  "tx_count": 7
+ },
+ "bc1qnq6jj9jmlf3945m3l8s0kxnqehrsga300k8t3s": {
+  "address": "bc1qnq6jj9jmlf3945m3l8s0kxnqehrsga300k8t3s",
+  "depth": 1,
+  "balance_btc": 1000.00002407,
+  "tx_count": 3
+ },
+ "bc1q96qkjsye5qruf9yksqdqg09lzdmur7wau2ga6u": {
+  "address": "bc1q96qkjsye5qruf9yksqdqg09lzdmur7wau2ga6u",
+  "depth": 1,
+  "balance_btc": 0.0,
+  "tx_count": 4
+ },
+ "bc1qxrxujwxfnvz040jw76d26zhjdg5jura7hs968s": {
+  "address": "bc1qxrxujwxfnvz040jw76d26zhjdg5jura7hs968s",
+  "depth": 1,
+  "balance_btc": 1000.00002776,
+  "tx_count": 4
+ },
+ "bc1qs3aej5tmcdz0vctz8y9rjcxtxg8v5385577s56": {
+  "address": "bc1qs3aej5tmcdz0vctz8y9rjcxtxg8v5385577s56",
+  "depth": 1,
+  "balance_btc": 1000.0000131,
+  "tx_count": 3
+ },
+ "bc1qn43ejagzgxgle394ynmv5sv3f9ydc48qme7t02": {
+  "address": "bc1qn43ejagzgxgle394ynmv5sv3f9ydc48qme7t02",
+  "depth": 1,
+  "balance_btc": 0.0,
+  "tx_count": 4
+ },
+ "bc1qjwdw6vrzq4vf6hckutvx4ucj86awwv99mxnz7w": {
+  "address": "bc1qjwdw6vrzq4vf6hckutvx4ucj86awwv99mxnz7w",
+  "depth": 1,
+  "balance_btc": 1000.00001333,
+  "tx_count": 3
+ },
+ "bc1qt8mrl9uchasf7pqhwlz6ezm9g44x7xj0vs6zqz": {
+  "address": "bc1qt8mrl9uchasf7pqhwlz6ezm9g44x7xj0vs6zqz",
+  "depth": 1,
+  "balance_btc": 0.0,
+  "tx_count": 2
+ },
+ "bc1q0ts8gaf9ht0rr4u02hr56f8thndqsc4kmkmfv3": {
+  "address": "bc1q0ts8gaf9ht0rr4u02hr56f8thndqsc4kmkmfv3",
+  "depth": 1,
+  "balance_btc": 1000.00001333,
+  "tx_count": 3
+ },
+ "bc1qhuq4genel5cuj00p7ggn30dwnzzjsw8mz3z2je": {
+  "address": "bc1qhuq4genel5cuj00p7ggn30dwnzzjsw8mz3z2je",
+  "depth": 1,
+  "balance_btc": 0.0,
+  "tx_count": 2
+ },
+ "bc1qrg025e2pgx0rwya2kpgtj30972p64jt0hn6zyt": {
+  "address": "bc1qrg025e2pgx0rwya2kpgtj30972p64jt0hn6zyt",
+  "depth": 2,
+  "balance_btc": 832.49992833,
+  "tx_count": 4
+ },
+ "bc1qepc70u3u476vgvg3hfcwjgu4mecxe2uchs4lag": {
+  "address": "bc1qepc70u3u476vgvg3hfcwjgu4mecxe2uchs4lag",
+  "depth": 2,
+  "balance_btc": 1000.00002409,
+  "tx_count": 3
+ },
+ "bc1qs6xnmhar38z44g2za93pv8ygdcwurrh8l87w3v": {
+  "address": "bc1qs6xnmhar38z44g2za93pv8ygdcwurrh8l87w3v",
+  "depth": 2,
+  "balance_btc": 1000.00001,
+  "tx_count": 2
+ },
+ "bc1qk8kpt0suefus8zz3fp78w8993frc5x97w423wl": {
+  "address": "bc1qk8kpt0suefus8zz3fp78w8993frc5x97w423wl",
+  "depth": 2,
+  "balance_btc": 0.0,
+  "tx_count": 5
+ },
+ "bc1qalwnl7dtaa73fsq5tyn0ghfy3fgfpqkt69tca8": {
+  "address": "bc1qalwnl7dtaa73fsq5tyn0ghfy3fgfpqkt69tca8",
+  "depth": 2,
+  "balance_btc": 1000.00001333,
+  "tx_count": 3
+ },
+ "bc1qdyy9q2lrnn5qh3ju996pgt95eesvc38lppdewn": {
+  "address": "bc1qdyy9q2lrnn5qh3ju996pgt95eesvc38lppdewn",
+  "depth": 2,
+  "balance_btc": 0.0,
+  "tx_count": 2
+ },
+ "bc1qm2j6v3247khlwzxl7p9vqnfkghcllyhv9wjaat": {
+  "address": "bc1qm2j6v3247khlwzxl7p9vqnfkghcllyhv9wjaat",
+  "depth": 2,
+  "balance_btc": 1000.00001,
+  "tx_count": 2
+ },
+ "bc1qdfhmlrdvg4tm87zjl0vyf0xflp5ql50q3g88gw": {
+  "address": "bc1qdfhmlrdvg4tm87zjl0vyf0xflp5ql50q3g88gw",
+  "depth": 2,
+  "balance_btc": 1000.00002407,
+  "tx_count": 3
+ },
+ "bc1qsmvvvvya6ak2gmsjcxc06ns7yrsx7q4x492vf2": {
+  "address": "bc1qsmvvvvya6ak2gmsjcxc06ns7yrsx7q4x492vf2",
+  "depth": 2,
+  "balance_btc": 0.0,
+  "tx_count": 2
+ },
+ "bc1q2wvz0kcsn4hqmajwtey30ud27fl25w8pveznn6": {
+  "address": "bc1q2wvz0kcsn4hqmajwtey30ud27fl25w8pveznn6",
+  "depth": 2,
+  "balance_btc": 1000.00001333,
+  "tx_count": 3
+ },
+ "bc1qg3nrzpuvq2pxqx74tcrywr09dc208ze96n3t53": {
+  "address": "bc1qg3nrzpuvq2pxqx74tcrywr09dc208ze96n3t53",
+  "depth": 3,
+  "balance_btc": 1000.0,
+  "tx_count": 1
+ },
+ "bc1q42flhayrzy3zh8lkyevw8qcjduurt9a35wlsyx": {
+  "address": "bc1q42flhayrzy3zh8lkyevw8qcjduurt9a35wlsyx",
+  "depth": 3,
+  "balance_btc": 1000.00001413,
+  "tx_count": 2
+ },
+ "bc1qm8v88m5fy6kuq9myva2eemwycxqd3e0zcrs2l8": {
+  "address": "bc1qm8v88m5fy6kuq9myva2eemwycxqd3e0zcrs2l8",
+  "depth": 3,
+  "balance_btc": 1000.0,
+  "tx_count": 1
+ },
+ "bc1q66l8z9htj4cd7pf8nnlc6mrxyssudm6hyg7a2a": {
+  "address": "bc1q66l8z9htj4cd7pf8nnlc6mrxyssudm6hyg7a2a",
+  "depth": 3,
+  "balance_btc": 0.0,
+  "tx_count": 2
+ },
+ "bc1qf5cyvv9w50tx9xx9s3xwsne0z87wvjj9l8a35u": {
+  "address": "bc1qf5cyvv9w50tx9xx9s3xwsne0z87wvjj9l8a35u",
+  "depth": 3,
+  "balance_btc": 1000.0,
+  "tx_count": 1
+ },
+ "bc1qz8hdwv8gmml0u96dsvnzsagz6krjyzxmgxupdp": {
+  "address": "bc1qz8hdwv8gmml0u96dsvnzsagz6krjyzxmgxupdp",
+  "depth": 3,
+  "balance_btc": 1000.00001719,
+  "tx_count": 3
+ },
+ "bc1qvws6kh5vjf7apg7f82wd5av8w2gmfj2zxkm8jc": {
+  "address": "bc1qvws6kh5vjf7apg7f82wd5av8w2gmfj2zxkm8jc",
+  "depth": 3,
+  "balance_btc": 0.0,
+  "tx_count": 2
+ },
+ "bc1q63qrfrpsg5hh0zzn3kp2xx9vljl7dq7tatsjxp": {
+  "address": "bc1q63qrfrpsg5hh0zzn3kp2xx9vljl7dq7tatsjxp",
+  "depth": 4,
+  "balance_btc": 1000.00001409,
+  "tx_count": 2
+ }
+}
