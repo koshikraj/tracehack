@@ -1,0 +1,12 @@
+node_modules/
+.env*
+!.env.example
+.claude-tasks/
+
+# Plans, roadmap, dev notes and agent instructions: kept locally, never committed
+.local/
+CLAUDE.md
+.claude/
+data/binance-hack/HANDOFF.md
+data/binance-hack/README.md
+web/AGENTS.md
